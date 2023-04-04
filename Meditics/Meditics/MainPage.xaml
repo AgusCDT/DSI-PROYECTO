@@ -8,7 +8,56 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <Style TargetType="TextBox" x:Key="CustomTextBlockStyle">
+            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </Page.Resources>
+
+
     <Grid>
+        <Image Source="/Assets/pantallacarga.jpeg" Stretch="Fill"/>
+        <Canvas Background="DarkBlue" Margin="500,230,500,200">
+            <TextBox Style="{StaticResource CustomTextBlockStyle}" Canvas.Left="76" Canvas.Top="66" Height="35" Width="160"
+                     PlaceholderText= "Enter your username" HorizontalAlignment="Left" VerticalAlignment="Center" CornerRadius="3"/>
+            <PasswordBox Canvas.Left="76" Canvas.Top="130" Height="35" Width="160" PlaceholderText="Enter your password" 
+                         PasswordChar="*" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Cascadia Code" FontSize="12"/>
+            <Border BorderBrush="Yellow" BorderThickness="5" Height="290" Width="280" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="3">
+            </Border>
+
+            <Rectangle Stroke="DarkBlue" StrokeThickness="3" Height="45" Width="45"  Fill="Yellow" RenderTransformOrigin="0.5,0.5" Canvas.Left="-18" Canvas.Top="-17">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="45"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="DarkBlue" StrokeThickness="3" Height="45" Width="45"  Fill="Yellow" RenderTransformOrigin="0.5,0.5" Canvas.Left="253" Canvas.Top="-17">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="45"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="DarkBlue" StrokeThickness="3" Height="45" Width="45"  Fill="Yellow" RenderTransformOrigin="0.5,0.5" Canvas.Left="253" Canvas.Top="262">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="45"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Rectangle Stroke="DarkBlue" StrokeThickness="3" Height="45" Width="45"  Fill="Yellow" RenderTransformOrigin="0.5,0.5" Canvas.Left="-18" Canvas.Top="262">
+                <Rectangle.RenderTransform>
+                    <CompositeTransform Rotation="45"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            
+            
+            <CheckBox Content="Keep my acount logged in" Canvas.Left="76" Canvas.Top="170" Height="32" Width="160" FontSize="8" FontFamily="Cascadia Code"
+                      VerticalContentAlignment="Center" RequestedTheme="Dark" />
+
+
+        </Canvas>
+        <Button Content="Submit" FontFamily="Cascadia Code" Margin="0,440,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"
+                Foreground="Black" Background="White" BorderThickness="2" Width="100" CornerRadius="3"/>
+        <Button Content="EXIT" Margin="36,652,0,0" VerticalAlignment="Top" Background="White" CornerRadius="3"/>
+
 
     </Grid>
 </Page>
