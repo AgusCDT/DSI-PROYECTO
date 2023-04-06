@@ -49,11 +49,15 @@
                 </Grid.RowDefinitions>
                 <Rectangle Fill="#006e8c" Grid.Row="0"/>
                 <Rectangle Fill="#003748" Grid.Row="1"/>
+                <StackPanel Margin="-12,0,0,1" HorizontalAlignment="Left" Width="184">
+                    <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
+                </StackPanel>
+
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
                          Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"/>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,73,0,0" TextWrapping="Wrap" 
                          Text="LVL.20" VerticalAlignment="Top" Grid.Row="0"/>
-                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="30,128,0,0" TextWrapping="Wrap" 
+                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="31,135,0,0" TextWrapping="Wrap" 
                          Text="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" FontSize="12"/>
 
                 <TextBlock Text="LOGROS" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
