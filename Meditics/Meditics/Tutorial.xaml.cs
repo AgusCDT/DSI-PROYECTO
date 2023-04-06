@@ -31,5 +31,10 @@ namespace Meditics
         {
 
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
     }
 }

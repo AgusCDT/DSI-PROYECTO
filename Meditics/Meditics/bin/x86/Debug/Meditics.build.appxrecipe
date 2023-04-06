@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
       <PackagePath>GameSelection.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
+      <PackagePath>Lobby.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

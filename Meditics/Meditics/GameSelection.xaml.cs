@@ -27,9 +27,19 @@ namespace Meditics
             this.InitializeComponent();
         }
 
-        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        private void BackButton_Click(object sender, RoutedEventArgs e)
         {
+            App.TryGoBack();
+        }
 
+        private void TutorialButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Tutorial));
+        }
+
+        private void MatchButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Match));
         }
     }
 }

@@ -26,5 +26,15 @@ namespace Meditics
         {
             this.InitializeComponent();
         }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Lobby));
+        }
+
+        private void ExitButton_Click(object sender, RoutedEventArgs e)
+        {
+            Windows.UI.Xaml.Application.Current.Exit();
+        }
     }
 }

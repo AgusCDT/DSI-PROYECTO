@@ -28,16 +28,27 @@
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"/>
-        <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" TextAlignment="Center"
-                       TextWrapping="Wrap" Margin="226,180,980,525"/>
-        <Image Source="/Assets/tftimage.jpg" Height="330" Width="318" HorizontalAlignment="Left" Margin="100,195,0,195" />
+        
+        <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" 
+                   TextAlignment="Center" TextWrapping="Wrap" Margin="226,180,980,525"/>
+        <Button Height="317" Margin="100,0,0,0" Width="318" Click="TutorialButton_Click" >
+            <Image Source="/Assets/tftimage.jpg" Margin="-10,-6,-10,-7" 
+                   Stretch="Fill" />
+        </Button>
 
-        <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" TextAlignment="Center"
-                       TextWrapping="Wrap" Margin="575,180,561,525"/>
-        <Image Source="/Assets/tftimage.jpg" Height="330" Width="318" HorizontalAlignment="Center" Margin="0,195,0,195" />
 
-        <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" TextAlignment="Center"
-                       TextWrapping="Wrap" Margin="961,180,173,522"/>
-        <Image Source="/Assets/tftimage.jpg" Height="330" Width="318" HorizontalAlignment="Left" Margin="864,195,0,195" />
+        <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
+                   TextAlignment="Center" TextWrapping="Wrap" Margin="575,180,561,525"/>
+        <Button Height="317" Margin="481,0,0,0" Width="318" Click="MatchButton_Click" >
+            <Image Source="/Assets/tftimage.jpg" Margin="-10,-6,-10,-7" 
+                   Stretch="Fill" />
+        </Button>
+
+        <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
+                   TextAlignment="Center" TextWrapping="Wrap" Margin="961,180,173,522"/>
+        <Button Height="317" Margin="864,0,0,0" Width="318" Click="MatchButton_Click">
+            <Image Source="/Assets/tftimage.jpg" Margin="-10,-6,-10,-7" 
+                   Stretch="Fill" />
+        </Button>
     </Grid>
 </Page>

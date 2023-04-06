@@ -24,7 +24,8 @@
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
-                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"/>
+                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
+                Click="BackButton_Click"/>
         <Canvas Margin="157,104,157,0">
             <TextBlock  Text="MÚSICA" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
@@ -41,7 +42,7 @@
         <ComboBox Margin="821,372,0,0" Width="120" Background="White"/>
         <Button Content="LOG OUT" HorizontalAlignment="Center" Margin="0,606,0,0" VerticalAlignment="Top"
                 Background="Red" Foreground="White" FontFamily="Cascadia Code" Height="40" Width="110"
-                HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10"/>
+                HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10" Click="LogOutButton_Click"/>
 
     </Grid>
 </Page>

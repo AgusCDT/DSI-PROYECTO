@@ -25,7 +25,8 @@
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
-                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"/>
+                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
+                Click="BackButton_Click"/>
 
         <FlipView MaxWidth="800" Background="#003748" Opacity="0.8" Margin="252,84,252,107" BorderThickness="5" 
                   BorderBrush="Black" CornerRadius="10">

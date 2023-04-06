@@ -26,5 +26,10 @@ namespace Meditics
         {
             this.InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
     }
 }

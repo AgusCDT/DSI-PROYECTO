@@ -63,3 +63,8 @@ C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\GameSelection.xbf
 C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Options.xbf
 C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Profile.xbf
 C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Tutorial.xbf
+C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf
+C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Lobby.g.i.cs
+C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Lobby.g.cs
+C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Lobby.xaml
+C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\Lobby.xbf
