@@ -40,7 +40,7 @@
         <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
                    TextAlignment="Center" TextWrapping="Wrap" Margin="575,180,561,525"/>
         <Button Height="317" Margin="481,0,0,0" Width="318" Click="MatchButton_Click" >
-            <Image Source="/Assets/profileMoqup.jpg" Margin="-10,-6,-10,-7" 
+            <Image Source="/Assets/playerIA.jpg" Margin="-10,-6,-10,-7" 
                    Stretch="Fill" />
         </Button>
 

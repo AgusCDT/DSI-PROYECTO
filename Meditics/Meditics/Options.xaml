@@ -31,18 +31,30 @@
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <TextBlock  Text="SFX" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <TextBlock  Text="GRÁFICOS" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
+            <TextBlock  Text="GRÁFICOS" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="112" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="669" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="650" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
         <Slider HorizontalAlignment="Left" Margin="306,205,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="/Assets/music.png" Margin="256,202,988,478"/>
         <Slider HorizontalAlignment="Left" Margin="306,360,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Source="/Assets/volumen.png" Margin="256,358,988,322"/>
         <ComboBox Margin="821,206,0,0" Width="120" Background="White"/>
-        <ComboBox Margin="821,372,0,0" Width="120" Background="White"/>
-        <Button Content="LOG OUT" HorizontalAlignment="Center" Margin="0,606,0,0" VerticalAlignment="Top"
-                Background="Red" Foreground="White" FontFamily="Cascadia Code" Height="40" Width="110"
-                HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10" Click="LogOutButton_Click"/>
+        <Image Source="/Assets/graphics.png" Margin="763,204,481,476"/>
+        <ComboBox Margin="821,362,0,0" Width="120" Background="White"/>
+        <Image Source="/Assets/resolucion.png" Margin="763,358,481,322"/>
+        <Button  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
+                 FontFamily="Cascadia Code" Height="52" Width="52"
+                 HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10" 
+                 Click="LogOutButton_Click">
+            <Image Source="/Assets/cerrar-sesion.png" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" 
+                   UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-9,-6,-11,-8">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
 
     </Grid>
 </Page>

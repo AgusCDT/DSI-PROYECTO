@@ -148,15 +148,27 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\alto-volumen.png" />
+    <Content Include="Assets\asterisco.png" />
+    <Content Include="Assets\cerrar-sesion.png" />
+    <Content Include="Assets\editar.png" />
+    <Content Include="Assets\exitbutton.png" />
     <Content Include="Assets\gameMoqup.jpg" />
+    <Content Include="Assets\graphics.png" />
     <Content Include="Assets\mapa.PNG" />
+    <Content Include="Assets\music.png" />
+    <Content Include="Assets\nota-musical.png" />
     <Content Include="Assets\pantallacarga.jpeg" />
     <Content Include="Assets\pantallacarga2.jpeg" />
     <Content Include="Assets\pantallacarga3.jpg" />
+    <Content Include="Assets\playerIA.jpg" />
     <Content Include="Assets\playerIcon.jpg" />
     <Content Include="Assets\playerIcon.png" />
     <Content Include="Assets\profileMoqup.jpg" />
+    <Content Include="Assets\resolucion.png" />
     <Content Include="Assets\tftimage.jpg" />
+    <Content Include="Assets\usuario.png" />
+    <Content Include="Assets\volumen.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

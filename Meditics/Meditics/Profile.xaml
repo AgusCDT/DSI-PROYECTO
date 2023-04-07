@@ -55,10 +55,16 @@
 
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
                          Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"/>
+                <Button Margin="294,38,0,0" VerticalAlignment="Top" Height="18" Width="22">
+                    <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
+                </Button>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,73,0,0" TextWrapping="Wrap" 
                          Text="LVL.20" VerticalAlignment="Top" Grid.Row="0"/>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="31,135,0,0" TextWrapping="Wrap" 
                          Text="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" FontSize="12"/>
+                <Button Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353">
+                    <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
+                </Button>
 
                 <TextBlock Text="LOGROS" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
                         TextWrapping="Wrap"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="198,10,0,0"/>
@@ -68,7 +74,12 @@
                              CornerRadius="10" Grid.Row="0"/>
                 <ScrollViewer Grid.Row="1" Margin="56,47,565,6"  VerticalScrollBarVisibility="Visible">
                     <ListView>
-
+                        <Canvas>
+                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
+                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146" Canvas.Left="145"/>
+                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146" Canvas.Left="290"/>
+                        </Canvas>
+                        
                     </ListView>
                 </ScrollViewer>
                 <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible">

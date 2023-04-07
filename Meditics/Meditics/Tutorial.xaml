@@ -52,7 +52,7 @@
             </Grid>
 
         </FlipView>
-        <TextBlock Text="Blalalalalalaalalalalalalalalallalalalalala" Style="{StaticResource CustomTextBlockStyle}" TextAlignment="Center"
+        <TextBlock Text="Meditics es un juego estilo autochess..." Style="{StaticResource CustomTextBlockStyle}" TextAlignment="Center"
                        TextWrapping="Wrap" Margin="252,472,261,105"/>
     </Grid>
 </Page>
