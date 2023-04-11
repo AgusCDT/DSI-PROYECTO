@@ -84,8 +84,8 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Background" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Background" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="HorizontalContentAlignment" />
@@ -169,6 +169,14 @@
       <RootProperty Name="Rotation" />
     </RootType>
     <RootType FullName="Meditics.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="Meditics.Match" />
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
       <RootProperty Name="Margin" />
@@ -191,12 +199,6 @@
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Meditics.Options" />
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Children" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
@@ -210,7 +212,9 @@
       <RootProperty Name="VerticalScrollBarVisibility" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Items" />
+    </RootType>
     <RootType FullName="Meditics.Profile" />
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
       <RootProperty Name="MaxWidth" />

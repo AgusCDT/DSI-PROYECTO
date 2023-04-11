@@ -26,5 +26,17 @@ namespace Meditics
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (MiStackPanel.Visibility == Visibility.Collapsed)
+            {
+                MiStackPanel.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                MiStackPanel.Visibility = Visibility.Collapsed;
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +26,21 @@ namespace Meditics
         public Lobby()
         {
             this.InitializeComponent();
+        }
+
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Profile));
+        }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Options));
+        }
+
+        private void SelectGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(GameSelection));
         }
     }
 }

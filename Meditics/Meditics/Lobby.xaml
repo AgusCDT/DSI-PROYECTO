@@ -8,7 +8,30 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
+            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Page.Resources>
 
+    <Grid>
+        <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill"/>
+
+        <Button Click="ProfileButton_Click" Width="100" Height="100" VerticalAlignment="Top" CornerRadius="100">
+            <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
+        </Button>
+
+        <Button x:Name="SettingsButton" 
+                Click="SettingsButton_Click"
+                Content="Button" Margin="1141,158,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="SelectGameButton"
+                Click="SelectGameButton_Click"
+                Content="Button" Margin="1141,651,0,0" VerticalAlignment="Top"/>
+        <Button Margin="545,360,0,0" VerticalAlignment="Top"/>
+        
     </Grid>
 </Page>
