@@ -38,5 +38,10 @@ namespace Meditics
                 MiStackPanel.Visibility = Visibility.Collapsed;
             }
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

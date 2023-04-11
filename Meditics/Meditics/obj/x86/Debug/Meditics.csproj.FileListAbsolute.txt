@@ -149,3 +149,8 @@ C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86
 C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638017793300000000.json
 C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638017829300000000.json
+C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\EndGame.g.i.cs
+C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\EndGame.g.cs
+C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\EndGame.xaml
+C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\EndGame.xbf
+C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-11T21:22:52.340</Modified>
+      <Modified>2023-04-11T22:12:42.592</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.exe">
       <PackagePath>entrypoint\Meditics.exe</PackagePath>
-      <Modified>2023-04-11T21:22:51.823</Modified>
+      <Modified>2023-04-11T22:12:42.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -82,6 +82,10 @@
       <PackagePath>Assets\nota-musical.png</PackagePath>
       <Modified>2023-04-09T22:49:13.942</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
+      <PackagePath>Assets\play.png</PackagePath>
+      <Modified>2023-04-11T22:03:47.489</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.png">
       <PackagePath>Assets\playerIcon.png</PackagePath>
       <Modified>2023-04-09T22:49:13.978</Modified>
@@ -90,9 +94,17 @@
       <PackagePath>Assets\resolucion.png</PackagePath>
       <Modified>2023-04-09T22:49:13.991</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+      <Modified>2023-04-11T21:41:30.858</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\usuario.png">
       <PackagePath>Assets\usuario.png</PackagePath>
       <Modified>2023-04-09T22:49:13.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\vida.png">
+      <PackagePath>Assets\vida.png</PackagePath>
+      <Modified>2023-04-11T21:21:58.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\volumen.png">
       <PackagePath>Assets\volumen.png</PackagePath>
@@ -170,39 +182,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.xr.xml">
       <PackagePath>Meditics.xr.xml</PackagePath>
-      <Modified>2023-04-11T21:22:51.764</Modified>
+      <Modified>2023-04-11T22:12:42.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.774</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf">
+      <PackagePath>EndGame.xbf</PackagePath>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
       <PackagePath>GameSelection.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.774</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
       <PackagePath>Lobby.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.774</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.775</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Match.xbf">
       <PackagePath>Match.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.775</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.775</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Profile.xbf">
       <PackagePath>Profile.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.775</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Tutorial.xbf">
       <PackagePath>Tutorial.xbf</PackagePath>
-      <Modified>2023-04-11T21:22:51.775</Modified>
+      <Modified>2023-04-11T22:12:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -210,11 +226,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-09T23:09:11.226</Modified>
+      <Modified>2023-04-11T22:09:12.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\Meditics.exe">
       <PackagePath>Meditics.exe</PackagePath>
-      <Modified>2023-04-11T21:22:52.337</Modified>
+      <Modified>2023-04-11T22:12:42.590</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
