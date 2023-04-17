@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\alto-volumen.png
 Assets\asterisco.png
 Assets\cerrar-sesion.png
@@ -41,3 +40,4 @@ Options.xbf
 Profile.xbf
 Tutorial.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

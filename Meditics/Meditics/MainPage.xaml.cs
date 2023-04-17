@@ -34,7 +34,7 @@ namespace Meditics
 
         private void ExitButton_Click(object sender, RoutedEventArgs e)
         {
-            Windows.UI.Xaml.Application.Current.Exit();
+            Application.Current.Exit();
         }
     }
 }

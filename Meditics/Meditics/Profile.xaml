@@ -35,7 +35,7 @@
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left" 
-                Click="BackButton_Click"/>
+                Click="BackButton_Click" TabIndex="1"/>
         <Canvas Margin="111,111,111,111">
             <Grid HorizontalAlignment="Center" Height="501" VerticalAlignment="Top" Width="1058"
                   CornerRadius="10" BorderBrush="Black" BorderThickness="2">
@@ -55,14 +55,14 @@
 
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
                          Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"/>
-                <Button Margin="294,38,0,0" VerticalAlignment="Top" Height="18" Width="22">
+                <Button Margin="294,38,0,0" VerticalAlignment="Top" Height="18" Width="22" TabIndex="2">
                     <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
                 </Button>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,73,0,0" TextWrapping="Wrap" 
                          Text="LVL.20" VerticalAlignment="Top" Grid.Row="0"/>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="31,135,0,0" TextWrapping="Wrap" 
                          Text="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" FontSize="12"/>
-                <Button Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353">
+                <Button Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353" TabIndex="3">
                     <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
                 </Button>
 
@@ -72,7 +72,7 @@
                         TextWrapping="Wrap"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="690,12,0,0" RenderTransformOrigin="0.479,0.651"/>
                 <ProgressBar HorizontalAlignment="Left" Height="27" Margin="298,81,0,0" VerticalAlignment="Top" Width="146"
                              CornerRadius="10" Grid.Row="0"/>
-                <ScrollViewer Grid.Row="1" Margin="56,47,565,6"  VerticalScrollBarVisibility="Visible">
+                <ScrollViewer Grid.Row="1" Margin="56,47,565,6"  VerticalScrollBarVisibility="Visible" TabIndex="4">
                     <ListView>
                         <Canvas>
                             <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
@@ -82,8 +82,8 @@
                         
                     </ListView>
                 </ScrollViewer>
-                <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible">
-                    <ListView>
+                <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible" TabIndex="5">
+                    <ListView >
 
                     </ListView>
                 </ScrollViewer>

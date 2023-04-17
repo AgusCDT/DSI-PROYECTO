@@ -25,7 +25,7 @@
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
-                Click="BackButton_Click"/>
+                Click="BackButton_Click" TabIndex="1"/>
         <Canvas Margin="157,104,157,0">
             <TextBlock  Text="MÚSICA" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
@@ -36,18 +36,18 @@
             <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="650" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
-        <Slider HorizontalAlignment="Left" Margin="306,205,0,0" VerticalAlignment="Top" Width="100"/>
+        <Slider HorizontalAlignment="Left" Margin="306,205,0,0" VerticalAlignment="Top" Width="100" TabIndex="2"/>
         <Image Source="/Assets/music.png" Margin="256,202,988,478"/>
-        <Slider HorizontalAlignment="Left" Margin="306,360,0,0" VerticalAlignment="Top" Width="100"/>
+        <Slider HorizontalAlignment="Left" Margin="306,360,0,0" VerticalAlignment="Top" Width="100" TabIndex="3"/>
         <Image Source="/Assets/volumen.png" Margin="256,358,988,322"/>
-        <ComboBox Margin="821,206,0,0" Width="120" Background="White"/>
+        <ComboBox Margin="821,206,0,0" Width="120" Background="White" TabIndex="4"/>
         <Image Source="/Assets/graphics.png" Margin="763,204,481,476"/>
-        <ComboBox Margin="821,362,0,0" Width="120" Background="White"/>
+        <ComboBox Margin="821,362,0,0" Width="120" Background="White" TabIndex="5"/>
         <Image Source="/Assets/resolucion.png" Margin="763,358,481,322"/>
         <Button  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
                  FontFamily="Cascadia Code" Height="52" Width="52"
                  HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10" 
-                 Click="LogOutButton_Click">
+                 Click="LogOutButton_Click" TabIndex="6">
             <Image Source="/Assets/cerrar-sesion.png" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" 
                    UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-9,-6,-11,-8">
                 <Image.RenderTransform>

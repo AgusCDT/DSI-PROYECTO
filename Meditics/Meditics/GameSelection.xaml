@@ -18,37 +18,48 @@
     </Page.Resources>
 
     <Grid>
-
         <Image Source="/Assets/pantallacarga3.jpg" Stretch="Fill"/>
-        <Rectangle Fill="#7b4812" Margin="100,180,862,201" Opacity="0.9"/>
-        <Rectangle Fill="#4c7a34" Margin="481,180,481,201" Opacity="0.9"/>
-        <Rectangle Fill="#3d051b" Margin="864,180,98,201" Opacity="0.9"/>
         <Button x:Name="BackButton"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                 IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
-                ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
-                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"/>
-        
-        <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" 
-                   TextAlignment="Center" TextWrapping="Wrap" Margin="226,180,980,525"/>
-        <Button Height="317" Margin="100,0,0,0" Width="318" Click="TutorialButton_Click" >
-            <Image Source="/Assets/tftimage.jpg" Margin="-10,-6,-10,-7" 
-                   Stretch="Fill" />
-        </Button>
+                ToolTipService.ToolTip="Back" Margin="20" VerticalAlignment="Top" 
+                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
+                TabIndex="1"/>
+        <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <StackPanel>
+                <StackPanel Background="#7b4812" Width="300">
+                    <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" 
+                           TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+                <Button Click="TutorialButton_Click"
+                        TabIndex="2" IsFocusEngagementEnabled="True">
+                    <Image Source="/Assets/tftimage.jpg" Width="300"  
+                    Stretch="Fill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel>
+                <StackPanel Background="#4c7a34" Width="300">
+                    <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
+                   TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+                <Button Click="MatchButton_Click"
+                TabIndex="3">
+                    <Image Source="/Assets/playerIA.jpg" Width="300"
+                    Stretch="Fill" />
+                </Button>
+            </StackPanel>
 
-
-        <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
-                   TextAlignment="Center" TextWrapping="Wrap" Margin="575,180,561,525"/>
-        <Button Height="317" Margin="481,0,0,0" Width="318" Click="MatchButton_Click" >
-            <Image Source="/Assets/playerIA.jpg" Margin="-10,-6,-10,-7" 
-                   Stretch="Fill" />
-        </Button>
-
-        <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
-                   TextAlignment="Center" TextWrapping="Wrap" Margin="961,180,173,522"/>
-        <Button Height="317" Margin="864,0,0,0" Width="318" Click="MatchButton_Click">
-            <Image Source="/Assets/gameMoqup.jpg" Margin="-10,-6,-10,-7" 
-                   Stretch="Fill" />
-        </Button>
+            <StackPanel>
+                <StackPanel Background="#3d051b" Width="300">
+                    <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
+                   TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+                <Button Click="MatchButton_Click"
+                TabIndex="4">
+                    <Image Source="/Assets/gameMoqup.jpg" Width="300"
+                    Stretch="Fill" Height="300" />
+                </Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

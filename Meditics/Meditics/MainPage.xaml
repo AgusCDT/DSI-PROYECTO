@@ -18,7 +18,7 @@
 
     <Grid>
         <Image Source="/Assets/pantallacarga.jpeg" Stretch="Fill"/>
-        <Grid Background="#006e8c" Margin="500,230,500,200">
+        <Grid Background="#006e8c" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto" />
                 <ColumnDefinition/>
@@ -28,11 +28,13 @@
             </Grid.RowDefinitions>
             <TextBox Style="{StaticResource CustomTextBoxStyle}" Height="35" Width="160"
                      PlaceholderText= "Enter your username" HorizontalAlignment="Center" VerticalAlignment="Top" 
-                     CornerRadius="3" Margin="0,50,0,0" Grid.Column="1" Background="#fef8a0"/>
+                     CornerRadius="3" Margin="0,50,0,0" Grid.Column="1" Background="#fef8a0"
+                     TabIndex="1"/>
             <PasswordBox PlaceholderText="Enter your password" Height="35" Width="160"
                          PasswordChar="*" FontFamily="Cascadia Code" FontSize="12"
                          HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0"
-                         CornerRadius="3" Grid.Column="1" Background="#fef8a0"/>
+                         CornerRadius="3" Grid.Column="1" Background="#fef8a0"
+                         TabIndex="2"/>
             <Border BorderBrush="#fef8a0" BorderThickness="5" Height="290" Width="280" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="3" Grid.Column="1"/>
 
             <Rectangle Stroke="#006e8c" StrokeThickness="2"  Fill="#fef8a0" 
@@ -65,16 +67,22 @@
             </Rectangle>
 
             <CheckBox Content="Keep my acount logged in" Height="32" Width="160" FontSize="8" FontFamily="Cascadia Code"
-                      VerticalContentAlignment="Center" RequestedTheme="Dark" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Grid.Column="1" />
+                      VerticalContentAlignment="Center" RequestedTheme="Dark" HorizontalAlignment="Center" Margin="0,170,0,0"
+                      VerticalAlignment="Top" Grid.Column="1"
+                      TabIndex="3"/>
 
             <Button Content="Submit" FontFamily="Cascadia Code"
                     Foreground="Black" Background="White" BorderThickness="2" 
                     Width="100" CornerRadius="3" Click="Login_Click"
                     HorizontalAlignment="Center" VerticalAlignment="Top"
-                    Margin="0,221,0,0" Grid.Column="1" Height="29"/>
+                    Margin="0,221,0,0" Grid.Column="1" Height="29"
+                    TabIndex="4"/>
         </Grid>
 
-        <Button  Margin="39,617,0,39" VerticalAlignment="Stretch" Background="White" CornerRadius="3" Click="ExitButton_Click">
+        <Button  VerticalAlignment="Bottom" HorizontalAlignment="Left"
+                 Background="White" CornerRadius="3"
+                 Click="ExitButton_Click" TabIndex="5"
+                 Margin="20">
             <Image Source="/Assets/exitbutton.png" Height="51" Width="42"/>
         </Button>
     </Grid>

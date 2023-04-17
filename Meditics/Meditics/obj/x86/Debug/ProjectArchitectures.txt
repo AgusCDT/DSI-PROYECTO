@@ -1,1 +1,1 @@
-C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Meditics.csproj;x86
+C:\DSI-PROYECTO\Meditics\Meditics\Meditics.csproj;x86
