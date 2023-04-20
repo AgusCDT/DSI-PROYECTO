@@ -39,9 +39,14 @@ namespace Meditics
             }
         }
 
-        private void EndButton_Click(object sender, RoutedEventArgs e)
+        private void Victory_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(EndGame));
+            Frame.Navigate(typeof(EndGame), true);
+        }
+
+        private void Defeat_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(EndGame), false);
         }
     }
 }

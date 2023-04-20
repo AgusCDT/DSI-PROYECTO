@@ -31,5 +31,18 @@ namespace Meditics
         {
             Frame.Navigate(typeof(Lobby));
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            VictoryGrid.Visibility = Visibility.Collapsed;
+            DefeatGrid.Visibility = Visibility.Collapsed;
+            if(e.Parameter is true)
+            {
+                VictoryGrid.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                DefeatGrid.Visibility = Visibility.Visible;
+            }
+        }
     }
 }

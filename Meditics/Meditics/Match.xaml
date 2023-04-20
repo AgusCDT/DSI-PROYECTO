@@ -101,8 +101,9 @@
                 Margin="0,15">
             <Image Source="/assets/settings.png" Stretch="Fill" />
         </Button>
-        <Button Content="ENDGAME" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="EndButton_Click">
-            
-        </Button>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Vertical">
+            <Button Content="Victory"  Click="Victory_Click" Background="White" ></Button>
+            <Button Content="Defeat" Click="Defeat_Click" Background="White"></Button>
+        </StackPanel>
     </Grid>
 </Page>

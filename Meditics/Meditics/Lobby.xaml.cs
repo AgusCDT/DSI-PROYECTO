@@ -7,6 +7,7 @@ using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -57,6 +58,31 @@ namespace Meditics
         private void SelectGameButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(GameSelection));
-        }      
+        }
+
+        private void Lobby_Click(object sender, RoutedEventArgs e)
+        {
+            Tienda.Visibility= Visibility.Collapsed;
+            Inventario.Visibility= Visibility.Collapsed;
+            TIENDAB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+            INVENTARIOB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+            LOBBYB.Background = new SolidColorBrush(color: Colors.Cyan);
+        }
+        private void Tienda_Click(object sender, RoutedEventArgs e)
+        {
+            Tienda.Visibility = Visibility.Visible;
+            Inventario.Visibility = Visibility.Collapsed;
+            TIENDAB.Background = new SolidColorBrush(color: Colors.Cyan);
+            INVENTARIOB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+            LOBBYB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+        }
+        private void Inventario_Click(object sender, RoutedEventArgs e)
+        {
+            Tienda.Visibility = Visibility.Collapsed;
+            Inventario.Visibility = Visibility.Visible;
+            TIENDAB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+            INVENTARIOB.Background = new SolidColorBrush(color: Colors.Cyan);
+            LOBBYB.Background = new SolidColorBrush(color: Colors.DarkCyan);
+        }
     }
 }

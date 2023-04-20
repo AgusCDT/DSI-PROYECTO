@@ -57,7 +57,8 @@
                 <Button x:ConnectionId='3'                          
                 TabIndex="4">
                     <Image Source="/Assets/gameMoqup.jpg" Width="300"
-                    Stretch="Fill" Height="300" />
+                    Stretch="Fill" Height="300"/>
+                    
                 </Button>
             </StackPanel>
         </StackPanel>

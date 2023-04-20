@@ -11,8 +11,37 @@
     <Grid>
         <Image Source="/assets/mapa.png" Stretch="Fill" />
         <Grid Background="DarkBlue" Opacity="0.5" VerticalAlignment="Center" HorizontalAlignment="Center" Width="500" Height="500">
-            <TextBlock Text="VICTORY" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White"/>
-            <Button x:ConnectionId='2' Content="Back to lobby" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="White" Margin="0,20"
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Rewards" HorizontalAlignment="Left" Margin="80,90,0,0" FontSize="30" FontStyle="Italic" FontWeight="Black"/>
+                <TextBlock Text="Qty" HorizontalAlignment="Right" Margin="200,90,0,0" FontSize="30" FontStyle="Italic" FontWeight="Black"/>
+            </StackPanel>
+            <Grid x:ConnectionId='2' x:Name="VictoryGrid" Visibility="Collapsed">
+                <TextBlock Text="VICTORY" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White"/>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="0,150,0,0">
+                        <Image/>
+                        <TextBlock/>
+                        <TextBlock/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                        <Image/>
+                        <TextBlock/>
+                        <TextBlock/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            
+            <Grid x:ConnectionId='3' x:Name="DefeatGrid" Visibility="Collapsed">
+                <TextBlock Text="DEFEAT" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White"/>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="0,150,0,0">
+                        <Image/>
+                        <TextBlock/>
+                        <TextBlock/>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+            <Button x:ConnectionId='4' Content="Back to lobby" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="White" Margin="0,20"
                                                       />
         </Grid>
 

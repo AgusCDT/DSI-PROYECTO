@@ -39,14 +39,73 @@
                 FontSize="22" FontWeight="ExtraBold">
         </Button>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" >
-            <Button Content="LOBBY" Background="Cyan" Width="100"
-                    FontFamily="Bahnschrift"/>
-            <Button Content="TIENDA" Background="DarkCyan" Width="100"
-                    FontFamily="Bahnschrift"/>
-            <Button Content="INVENTARIO" Background="DarkCyan" Width="100"
-                    FontFamily="Bahnschrift"/>
-        </StackPanel>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800" MaxHeight="600">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" Grid.Row="0">
+                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="100" FontFamily="Bahnschrift"                    />
+                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="100" FontFamily="Bahnschrift"                     />
+                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="100" FontFamily="Bahnschrift"                         />
+            </StackPanel>
+            <Grid x:ConnectionId='7' Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,50">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Width="200">
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                </StackPanel>
+                <Grid>
+
+                </Grid>
+            </Grid>
+            <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Width="200" Grid.Column="0">
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                </StackPanel>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <ContentControl Grid.Column="0" Grid.Row="0">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                    <ContentControl Grid.Column="1" Grid.Row="0">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                    <ContentControl Grid.Column="0" Grid.Row="1">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                    <ContentControl Grid.Column="1" Grid.Row="1">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                    <ContentControl Grid.Column="0" Grid.Row="2">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                    <ContentControl Grid.Column="1" Grid.Row="2">
+                        <Image Source="assets/usuario.png" MaxWidth="150"/>
+                    </ContentControl>
+                </Grid>
+            </Grid>
+        </Grid>
         <MediaElement x:ConnectionId='6' x:Name="VideoLobby" Height="150" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="25, 130"
                       AreTransportControlsEnabled="True" Source="ms-appx:///Assets/tftTrailer.mp4" />
     </Grid>
