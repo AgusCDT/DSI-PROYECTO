@@ -47,7 +47,7 @@ namespace Meditics
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Profile));
+            Frame.Navigate(typeof(Profile),User.Text);
         }
 
         private void SettingsButton_Click(object sender, RoutedEventArgs e)

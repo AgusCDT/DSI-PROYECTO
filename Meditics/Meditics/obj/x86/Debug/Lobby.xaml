@@ -39,17 +39,17 @@
                 FontSize="22" FontWeight="ExtraBold">
         </Button>
 
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800" MaxHeight="600">
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" Grid.Row="0">
-                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="100" FontFamily="Bahnschrift"                    />
-                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="100" FontFamily="Bahnschrift"                     />
-                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="100" FontFamily="Bahnschrift"                         />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50">
+                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift"                    />
+                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                     />
+                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                         />
             </StackPanel>
-            <Grid x:ConnectionId='7' Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,50">
+            <Grid x:ConnectionId='7' Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>

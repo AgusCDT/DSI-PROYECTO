@@ -5,10 +5,12 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
@@ -20,6 +22,7 @@ namespace Meditics
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
+    
     public sealed partial class Profile : Page
     {
         public Profile()
@@ -29,7 +32,16 @@ namespace Meditics
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            App.TryGoBack();
+            Frame.Navigate(typeof(Lobby), UserTextBox.Text);
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            UserTextBox.Text=e.Parameter.ToString();
         }
     }
 }

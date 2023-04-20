@@ -53,8 +53,8 @@
                     <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
                 </StackPanel>
 
-                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
-                         Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"/>
+                <TextBox x:ConnectionId='4' x:Name="UserTextBox" Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
+                         Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"                                  />
                 <Button Margin="294,38,0,0" VerticalAlignment="Top" Height="18" Width="22" TabIndex="2">
                     <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
                 </Button>

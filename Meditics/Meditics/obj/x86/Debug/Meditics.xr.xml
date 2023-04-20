@@ -22,7 +22,6 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="MaxWidth" />
-      <RootProperty Name="MaxHeight" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Margin" />
       <RootProperty Name="ColumnDefinitions" />

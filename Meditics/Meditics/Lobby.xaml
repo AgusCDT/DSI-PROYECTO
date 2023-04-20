@@ -24,7 +24,7 @@
             <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
         </Button>
         <TextBlock x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
-                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40" Text="holacracolas"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40" Text=""
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
@@ -39,17 +39,17 @@
                 FontSize="22" FontWeight="ExtraBold">
         </Button>
 
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800" MaxHeight="600">
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,25,0,0" Grid.Row="0">
-                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="100" FontFamily="Bahnschrift" Click="Lobby_Click"/>
-                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="100" FontFamily="Bahnschrift" Click="Tienda_Click"/>
-                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="100" FontFamily="Bahnschrift" Click="Inventario_Click"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50">
+                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift" Click="Lobby_Click"/>
+                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Tienda_Click"/>
+                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Inventario_Click"/>
             </StackPanel>
-            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,50">
+            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
