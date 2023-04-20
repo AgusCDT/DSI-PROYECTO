@@ -17,6 +17,7 @@
     </Page.Resources>
 
     <Grid>
+        <MediaElement x:Name="MusicPlayer"/>
         <Image Source="/Assets/pantallacarga.jpeg" Stretch="Fill"/>
         <Grid Background="#006e8c" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>

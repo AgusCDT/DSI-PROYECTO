@@ -28,8 +28,13 @@ namespace Meditics
         public MainPage()
         {
             InitializeComponent();
+            Loaded += MainPage_Loaded;
         }
 
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {          
+            MusicPlayer.Source = new Uri("ms-appx:///Assets/LoL_s6_theme.mp3");
+        }
         private async void Login_Click(object sender, RoutedEventArgs e)
         {
             

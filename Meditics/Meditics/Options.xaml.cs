@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +26,8 @@ namespace Meditics
         public Options()
         {
             InitializeComponent();
+            
+           
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
@@ -35,6 +38,18 @@ namespace Meditics
         private void LogOutButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Slider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            // Actualizar el valor del volumen en todas las páginas
+            ApplicationData.Current.LocalSettings.Values["Volumen"] = MusicSlider.Value;
+        }
+
+        private void MusicPlayer_VolumeChanged(object sender, RoutedEventArgs e)
+        {
+            double volumen = MusicSlider.Value;
+            MusicPlayer.Volume = volumen;
         }
     }
 }

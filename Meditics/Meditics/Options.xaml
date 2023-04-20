@@ -17,7 +17,9 @@
         </Style>
     </Page.Resources>
 
-    <Grid >
+    <Grid>
+        <MediaElement x:Name="MusicPlayer" Source="ms-appx:///Assets/LoL_s6_theme.mp3" 
+                      VolumeChanged="MusicPlayer_VolumeChanged"/>
         <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill" />
         <Rectangle Fill="#444444" Opacity="0.9"/>
         <Button x:Name="BackButton"
@@ -26,24 +28,33 @@
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
                 Click="BackButton_Click" TabIndex="1"/>
-        <Canvas Margin="157,104,157,0">
-            <TextBlock  Text="MÚSICA" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
+        <StackPanel>
+            <Canvas HorizontalAlignment="Center" Height="475" Width="900">
+                <TextBlock  Text="MÚSICA" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <TextBlock  Text="SFX" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
+                <TextBlock  Text="SFX" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <TextBlock  Text="GRÁFICOS" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="112" TextAlignment="Center"
+                <TextBlock  Text="GRÁFICOS" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="112" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="669" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
+                <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="650" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        </Canvas>
-        <Slider HorizontalAlignment="Left" Margin="306,205,0,0" VerticalAlignment="Top" Width="100" TabIndex="2"/>
-        <Image Source="/Assets/music.png" Margin="256,202,988,478"/>
-        <Slider HorizontalAlignment="Left" Margin="306,360,0,0" VerticalAlignment="Top" Width="100" TabIndex="3"/>
-        <Image Source="/Assets/volumen.png" Margin="256,358,988,322"/>
-        <ComboBox Margin="821,206,0,0" Width="120" Background="White" TabIndex="4"/>
-        <Image Source="/Assets/graphics.png" Margin="763,204,481,476"/>
-        <ComboBox Margin="821,362,0,0" Width="120" Background="White" TabIndex="5"/>
-        <Image Source="/Assets/resolucion.png" Margin="763,358,481,322"/>
+
+                <Slider x:Name="MusicSlider" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="100" TabIndex="2"
+                    ValueChanged="Slider_ValueChanged" Margin="70" Canvas.Left="80"/>
+                <Image Source="/Assets/music.png" Height=" 30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   Canvas.Left="100" Canvas.Top="70"/>
+                <Slider HorizontalAlignment="Left" Width="100" TabIndex="3" 
+                    Margin="70" Canvas.Top="200"  Canvas.Left="80"/>
+                <Image Source="/Assets/volumen.png" Height=" 30" Width="30" HorizontalAlignment="Left"
+                   VerticalAlignment="Center" Canvas.Left="100" Canvas.Top="270"/>
+                <ComboBox Width="120" Background="White" TabIndex="4" Canvas.Left="670" Canvas.Top="100"/>
+                <Image Source="/Assets/graphics.png" Width="40" Canvas.Left="600" Canvas.Top="95"/>
+                <ComboBox Width="120" Background="White" TabIndex="5" Canvas.Left="670" Canvas.Top="270"/>
+                <Image Source="/Assets/resolucion.png" Width="40" Canvas.Left="600" Canvas.Top="265"/>
+
+            </Canvas>
+        </StackPanel>
+
         <Button  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
                  FontFamily="Cascadia Code" Height="52" Width="52"
                  HorizontalContentAlignment="Left" FontSize="20" CornerRadius="10" 

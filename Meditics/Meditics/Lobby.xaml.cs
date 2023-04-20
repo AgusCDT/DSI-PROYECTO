@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,10 +23,13 @@ namespace Meditics
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
     public sealed partial class Lobby : Page
-    {
+    {       
         public Lobby()
         {
             InitializeComponent();
+            // Leer el valor del volumen desde la configuración
+            //double volumen = (double)ApplicationData.Current.LocalSettings.Values["Volumen"];
+            //MusicPlayer.Volume = volumen;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -50,6 +54,12 @@ namespace Meditics
         private void SelectGameButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(GameSelection));
+        }
+
+        private void MusicPlayer_VolumeChanged(object sender, RoutedEventArgs e)
+        {
+            double volumen = (double)ApplicationData.Current.LocalSettings.Values["Volumen"];
+            MusicPlayer.Volume = volumen;
         }
     }
 }

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F94A9D19A0832291848D12CB78E20974CB691D92DA70561B1F0C893CF5D20ABF</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C7E2FD2C759F94A55089D93B8D80FDFCA234811A7F40B83887E24381C5717CE5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>707e3c13-5af9-4da3-a2e5-4217f02c8e4c_1.0.0.0_x86__ayqb9s56nj3f0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>707e3c13-5af9-4da3-a2e5-4217f02c8e4c_ayqb9s56nj3f0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>707e3c13-5af9-4da3-a2e5-4217f02c8e4c</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-20T09:28:47.392</Modified>
+      <Modified>2023-04-20T11:22:07.522</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.exe">
       <PackagePath>entrypoint\Meditics.exe</PackagePath>
-      <Modified>2023-04-20T09:28:46.389</Modified>
+      <Modified>2023-04-20T11:22:06.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -168,6 +168,10 @@
       <PackagePath>Assets\tftimage.jpg</PackagePath>
       <Modified>2023-04-04T19:07:08.461</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\LoL_s6_theme.mp3">
+      <PackagePath>Assets\LoL_s6_theme.mp3</PackagePath>
+      <Modified>2023-04-20T10:24:52.076</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga.jpeg">
       <PackagePath>Assets\pantallacarga.jpeg</PackagePath>
       <Modified>2023-04-04T19:07:08.447</Modified>
@@ -182,43 +186,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.xr.xml">
       <PackagePath>Meditics.xr.xml</PackagePath>
-      <Modified>2023-04-20T09:28:46.249</Modified>
+      <Modified>2023-04-20T11:22:06.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.287</Modified>
+      <Modified>2023-04-20T11:22:06.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf">
       <PackagePath>EndGame.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.287</Modified>
+      <Modified>2023-04-20T11:22:06.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
       <PackagePath>GameSelection.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.288</Modified>
+      <Modified>2023-04-20T11:22:06.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
       <PackagePath>Lobby.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.288</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.288</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Match.xbf">
       <PackagePath>Match.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.288</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.288</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Profile.xbf">
       <PackagePath>Profile.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.289</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Tutorial.xbf">
       <PackagePath>Tutorial.xbf</PackagePath>
-      <Modified>2023-04-20T09:28:46.289</Modified>
+      <Modified>2023-04-20T11:22:06.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -226,11 +230,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-17T15:06:36.555</Modified>
+      <Modified>2023-04-20T10:33:34.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\Meditics.exe">
       <PackagePath>Meditics.exe</PackagePath>
-      <Modified>2023-04-20T09:28:47.375</Modified>
+      <Modified>2023-04-20T11:22:07.505</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
