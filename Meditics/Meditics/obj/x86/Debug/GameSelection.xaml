@@ -31,7 +31,7 @@
                     <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" 
                            TextAlignment="Center" TextWrapping="Wrap"/>
                 </StackPanel>
-                <Button x:ConnectionId='5'                             
+                <Button x:ConnectionId='4'                             
                         TabIndex="2" IsFocusEngagementEnabled="True">
                     <Image Source="/Assets/tftimage.jpg" Width="300"  
                     Stretch="Fill"/>
@@ -42,7 +42,7 @@
                     <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
                    TextAlignment="Center" TextWrapping="Wrap"/>
                 </StackPanel>
-                <Button x:ConnectionId='4'                          
+                <Button x:ConnectionId='3'                          
                 TabIndex="3">
                     <Image Source="/Assets/playerIA.jpg" Width="300"
                     Stretch="Fill" />
@@ -52,13 +52,11 @@
             <StackPanel>
                 <StackPanel Background="#3d051b" Width="300">
                     <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
-                   TextAlignment="Center" TextWrapping="Wrap"/>
+                   TextAlignment="Center" TextWrapping="Wrap" Opacity="0.5"/>
                 </StackPanel>
-                <Button x:ConnectionId='3'                          
-                TabIndex="4">
+                <Button TabIndex="4">
                     <Image Source="/Assets/gameMoqup.jpg" Width="300"
-                    Stretch="Fill" Height="300"/>
-                    
+                    Stretch="Fill" Height="300" Opacity="0.5"/>
                 </Button>
             </StackPanel>
         </StackPanel>

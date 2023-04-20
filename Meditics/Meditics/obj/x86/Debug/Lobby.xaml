@@ -24,7 +24,7 @@
             <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
         </Button>
         <TextBlock x:ConnectionId='3' x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
-                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40" Text="holacracolas"
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40"
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
@@ -44,10 +44,10 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50">
-                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift"                    />
-                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                     />
-                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                         />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50" Height="50">
+                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift"                     VerticalAlignment="Stretch"/>
+                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                      VerticalAlignment="Stretch"/>
+                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                          VerticalAlignment="Stretch"/>
             </StackPanel>
             <Grid x:ConnectionId='7' Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
@@ -64,16 +64,16 @@
 
                 </Grid>
             </Grid>
-            <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
+            <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="visible" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Width="200" Grid.Column="0">
-                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
                 </StackPanel>
                 <Grid Grid.Column="1">
                     <Grid.RowDefinitions>

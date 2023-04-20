@@ -44,10 +44,10 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50">
-                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift" Click="Lobby_Click"/>
-                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Tienda_Click"/>
-                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Inventario_Click"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50" Height="50">
+                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift" Click="Lobby_Click" VerticalAlignment="Stretch"/>
+                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Tienda_Click" VerticalAlignment="Stretch"/>
+                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Inventario_Click" VerticalAlignment="Stretch"/>
             </StackPanel>
             <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
