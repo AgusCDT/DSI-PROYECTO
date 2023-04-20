@@ -30,6 +30,9 @@ namespace Meditics
             // Leer el valor del volumen desde la configuración
             //double volumen = (double)ApplicationData.Current.LocalSettings.Values["Volumen"];
             //MusicPlayer.Volume = volumen;
+           
+            VideoLobby.TransportControls.Height = 50;
+            VideoLobby.TransportControls.VerticalAlignment= VerticalAlignment.Bottom;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

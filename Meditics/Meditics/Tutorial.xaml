@@ -27,9 +27,20 @@
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
                 Click="BackButton_Click" TabIndex="1"/>
 
-        <FlipView MaxWidth="800" Background="#003748" Opacity="0.8" Margin="252,84,252,107" BorderThickness="5" 
+        <FlipView x:Name="Tutorial_FlipView" MaxWidth="800" Background="#003748" Opacity="0.8" Margin="252,84,252,107" BorderThickness="5" 
                   BorderBrush="Black" CornerRadius="10" TabIndex="2">
-            <Grid >
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Image Source="{Binding ImagePath}"  Height="210" VerticalAlignment="Top"
+                               HorizontalAlignment="Center" Margin="0, 50"/>
+                        <TextBlock Text="{Binding Text}" Style="{StaticResource CustomTextBlockStyle}" 
+                                   VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="80, 65"
+                                   FontSize="16" TextWrapping="Wrap" TextAlignment="Justify"/>
+                    </Grid>
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+            <!--<Grid >
                 <Image Source="/Assets/mapa.png" Opacity="1" Height="236" VerticalAlignment="Top" Width="381" HorizontalAlignment="Right" Margin="0,0,189,0"/>
                 <Button x:Name="BackTutorialButton"
                         Style="{StaticResource NavigationBackButtonNormalStyle}"
@@ -50,10 +61,7 @@
                         <CompositeTransform Rotation="180"/>
                     </Button.RenderTransform>
                 </Button>
-            </Grid>
-
+            </Grid>-->
         </FlipView>
-        <TextBlock Text="Meditics es un juego estilo autochess..." Style="{StaticResource CustomTextBlockStyle}" TextAlignment="Center"
-                       TextWrapping="Wrap" Margin="252,472,261,105"/>
     </Grid>
 </Page>

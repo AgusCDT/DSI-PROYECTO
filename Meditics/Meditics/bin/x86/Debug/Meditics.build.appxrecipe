@@ -136,6 +136,9 @@
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga2.jpeg">
       <PackagePath>Assets\pantallacarga2.jpeg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\tftTrailer.mp4">
+      <PackagePath>Assets\tftTrailer.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

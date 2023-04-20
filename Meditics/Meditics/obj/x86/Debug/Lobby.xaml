@@ -49,6 +49,8 @@
             <Button Content="INVENTARIO" Background="DarkCyan" Width="100"
                     FontFamily="Bahnschrift"/>
         </StackPanel>
+        <MediaElement x:ConnectionId='7' x:Name="VideoLobby" Height="150" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="25, 130"
+                      AreTransportControlsEnabled="True" Source="ms-appx:///Assets/tftTrailer.mp4" />
     </Grid>
 </Page>
 

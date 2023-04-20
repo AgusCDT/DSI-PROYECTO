@@ -25,13 +25,13 @@ namespace Meditics
         public Tutorial()
         {
             InitializeComponent();
+            List<FlipViewItem> items = new List<FlipViewItem>();
+            items.Add(new FlipViewItem { ImagePath = "Assets/mapa.png", Text = "Meditics es un juego...." });
+            items.Add(new FlipViewItem { ImagePath = "Assets/pantallacarga2.jpeg", Text = "Texto de la imagen 2" });
+            items.Add(new FlipViewItem { ImagePath = "Assets/pantallacarga3.jpeg", Text = "Texto de la imagen 3" });
+            Tutorial_FlipView.ItemsSource = items;
         }
-
-        private void FlipView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
+      
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             App.TryGoBack();

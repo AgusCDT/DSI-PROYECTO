@@ -122,6 +122,7 @@
     <Compile Include="EndGame.xaml.cs">
       <DependentUpon>EndGame.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FlipViewItem.cs" />
     <Compile Include="GameSelection.xaml.cs">
       <DependentUpon>GameSelection.xaml</DependentUpon>
     </Compile>
@@ -173,6 +174,7 @@
     <Content Include="Assets\resolucion.png" />
     <Content Include="Assets\settings.png" />
     <Content Include="Assets\tftimage.jpg" />
+    <Content Include="Assets\tftTrailer.mp4" />
     <Content Include="Assets\usuario.png" />
     <Content Include="Assets\vida.png" />
     <Content Include="Assets\volumen.png" />
