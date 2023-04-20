@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Media.Playback;
+using Windows.Media.Core;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
@@ -24,17 +26,14 @@ namespace Meditics
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private string userText = null;       
+        private string userText = null; 
+                        
         public MainPage()
         {
             InitializeComponent();
-            Loaded += MainPage_Loaded;
+            
         }
 
-        private void MainPage_Loaded(object sender, RoutedEventArgs e)
-        {          
-            MusicPlayer.Source = new Uri("ms-appx:///Assets/LoL_s6_theme.mp3");
-        }
         private async void Login_Click(object sender, RoutedEventArgs e)
         {
             

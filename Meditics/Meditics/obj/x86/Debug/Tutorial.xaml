@@ -32,8 +32,11 @@
             <FlipView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
-                        <Image Source="{Binding ImagePath}" Width="500" Height="300" />
-                        <TextBlock Text="{Binding Text}" Style="{StaticResource CustomTextBlockStyle}"/>
+                        <Image Source="{Binding ImagePath}"  Height="210" VerticalAlignment="Top"
+                               HorizontalAlignment="Center" Margin="0, 50"/>
+                        <TextBlock Text="{Binding Text}" Style="{StaticResource CustomTextBlockStyle}" 
+                                   VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="80, 65"
+                                   FontSize="16" TextWrapping="Wrap" TextAlignment="Justify"/>
                     </Grid>
                 </DataTemplate>
             </FlipView.ItemTemplate>

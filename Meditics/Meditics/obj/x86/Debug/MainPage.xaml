@@ -17,7 +17,6 @@
     </Page.Resources>
 
     <Grid>
-        <MediaElement x:ConnectionId='2' x:Name="MusicPlayer"/>
         <Image Source="/Assets/pantallacarga.jpeg" Stretch="Fill"/>
         <Grid Background="#006e8c" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Grid.ColumnDefinitions>
@@ -27,13 +26,13 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBox x:ConnectionId='4' x:Name="User"
+            <TextBox x:ConnectionId='3' x:Name="User"
                      Style="{StaticResource CustomTextBoxStyle}" Height="35" Width="160"                    
                      PlaceholderText= "Enter your username" HorizontalAlignment="Center" VerticalAlignment="Top" 
                      CornerRadius="3" Margin="0,50,0,0" Grid.Column="1" Background="#fef8a0"
                                                    
                      TabIndex="1"/>
-            <PasswordBox x:ConnectionId='5' x:Name="Password"
+            <PasswordBox x:ConnectionId='4' x:Name="Password"
                          PlaceholderText="Enter your password" Height="35" Width="160"
                          PasswordChar="*" FontFamily="Bahnschrift" FontSize="12"
                          HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0"
@@ -76,7 +75,7 @@
                       VerticalAlignment="Top" Grid.Column="1"
                       TabIndex="3"/>
 
-            <Button x:ConnectionId='6' Content="Submit" FontFamily="Bahnschrift"
+            <Button x:ConnectionId='5' Content="Submit" FontFamily="Bahnschrift"
                     Foreground="Black" Background="#fef8a0" BorderThickness="2" 
                     Width="100" CornerRadius="3"                    
                     HorizontalAlignment="Center" VerticalAlignment="Top"
@@ -87,7 +86,7 @@
                              Grid.Column="1" Margin="20, 5" FontFamily="Bahnschrift"/>
         </Grid>
 
-        <Button x:ConnectionId='3'  VerticalAlignment="Bottom" HorizontalAlignment="Left"
+        <Button x:ConnectionId='2'  VerticalAlignment="Bottom" HorizontalAlignment="Left"
                  Background="White" CornerRadius="3"
                                           TabIndex="5"
                  Margin="20">

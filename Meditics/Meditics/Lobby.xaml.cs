@@ -57,12 +57,6 @@ namespace Meditics
         private void SelectGameButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(GameSelection));
-        }
-
-        private void MusicPlayer_VolumeChanged(object sender, RoutedEventArgs e)
-        {
-            double volumen = (double)ApplicationData.Current.LocalSettings.Values["Volumen"];
-            MusicPlayer.Volume = volumen;
-        }
+        }      
     }
 }

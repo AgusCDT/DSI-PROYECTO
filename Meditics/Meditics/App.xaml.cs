@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.Core;
 using Windows.Media.Playback;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -23,8 +24,7 @@ namespace Meditics
     /// </summary>
     sealed partial class App : Application
     {
-
-        public static MediaPlayer MediaPlayer = new MediaPlayer();
+        public MediaPlayer music = new MediaPlayer();
         /// <summary>
         /// Inicializa el objeto de aplicación Singleton. Esta es la primera línea de código creado
         /// ejecutado y, como tal, es el equivalente lógico de main() o WinMain().
@@ -32,7 +32,11 @@ namespace Meditics
         public App()
         {
             this.InitializeComponent();           
-            this.Suspending += OnSuspending;           
+            this.Suspending += OnSuspending;
+            music.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/LoL_s6_theme.mp3"));
+            music.Volume = 30.0f / 100.0f;
+            music.Play();
+            music.IsLoopingEnabled = true;
         }
 
         /// <summary>

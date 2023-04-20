@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.Playback;
+using Windows.Media.Protection.PlayReady;
 using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -23,12 +25,17 @@ namespace Meditics
     /// </summary>
     public sealed partial class Options : Page
     {
+        private float volume;
+        //private MainPage Lobby;
+        
+
         public Options()
         {
-            InitializeComponent();
-            
-           
+            InitializeComponent();                       
+            var currentApp = Application.Current as App;
+            MusicSlider.Value = (float)currentApp.music.Volume * 100;          
         }
+
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
@@ -36,20 +43,20 @@ namespace Meditics
         }
 
         private void LogOutButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(MainPage));
+        {           
+            Frame.Navigate(typeof(MainPage));         
         }
 
         private void Slider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
-            // Actualizar el valor del volumen en todas las páginas
-            ApplicationData.Current.LocalSettings.Values["Volumen"] = MusicSlider.Value;
-        }
+            var currentApp = Application.Current as App;
+            volume = (float)currentApp.music.Volume;
+            if (currentApp.music != null)
+            {
+                volume = (float)e.NewValue / 100.0f;
+            }
 
-        private void MusicPlayer_VolumeChanged(object sender, RoutedEventArgs e)
-        {
-            double volumen = MusicSlider.Value;
-            MusicPlayer.Volume = volumen;
-        }
+            currentApp.music.Volume = volume; // Actualizo el volumen del MediaPlayer         
+        }       
     }
 }

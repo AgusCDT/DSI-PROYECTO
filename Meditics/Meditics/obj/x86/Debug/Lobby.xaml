@@ -18,25 +18,23 @@
     </Page.Resources>
 
     <Grid>
-        <MediaElement x:ConnectionId='2' x:Name="MusicPlayer" Source="ms-appx:///Assets/LoL_s6_theme.mp3"
-                                                               />
         <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill"/>
 
-        <Button x:ConnectionId='3'                             Width="100" Height="100" VerticalAlignment="Top" CornerRadius="100">
+        <Button x:ConnectionId='2'                             Width="100" Height="100" VerticalAlignment="Top" CornerRadius="100">
             <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
         </Button>
-        <TextBlock x:ConnectionId='4' x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
+        <TextBlock x:ConnectionId='3' x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40" Text="holacracolas"
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
                    FontSize="16"/>
 
-        <Button x:ConnectionId='5'                              Margin="0,15" VerticalAlignment="Top" Width="55" Height="50" HorizontalAlignment="Right">
+        <Button x:ConnectionId='4'                              Margin="0,15" VerticalAlignment="Top" Width="55" Height="50" HorizontalAlignment="Right">
             <Image Source="/assets/settings.png" Stretch="Fill"/>
         </Button>
 
-        <Button x:ConnectionId='6' Content="JUGAR"                                Margin="0,0,17,40" VerticalAlignment="Bottom" Width="100" Height="50"
+        <Button x:ConnectionId='5' Content="JUGAR"                                Margin="0,0,17,40" VerticalAlignment="Bottom" Width="100" Height="50"
                 Background="Orange" HorizontalAlignment="Right" FontFamily="Bahnschrift" Foreground="White"
                 FontSize="22" FontWeight="ExtraBold">
         </Button>
@@ -49,7 +47,7 @@
             <Button Content="INVENTARIO" Background="DarkCyan" Width="100"
                     FontFamily="Bahnschrift"/>
         </StackPanel>
-        <MediaElement x:ConnectionId='7' x:Name="VideoLobby" Height="150" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="25, 130"
+        <MediaElement x:ConnectionId='6' x:Name="VideoLobby" Height="150" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="25, 130"
                       AreTransportControlsEnabled="True" Source="ms-appx:///Assets/tftTrailer.mp4" />
     </Grid>
 </Page>

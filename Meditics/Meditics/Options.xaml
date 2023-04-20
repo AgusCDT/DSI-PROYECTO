@@ -18,8 +18,6 @@
     </Page.Resources>
 
     <Grid>
-        <MediaElement x:Name="MusicPlayer" Source="ms-appx:///Assets/LoL_s6_theme.mp3" 
-                      VolumeChanged="MusicPlayer_VolumeChanged"/>
         <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill" />
         <Rectangle Fill="#444444" Opacity="0.9"/>
         <Button x:Name="BackButton"

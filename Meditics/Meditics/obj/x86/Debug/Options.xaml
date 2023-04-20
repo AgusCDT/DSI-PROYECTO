@@ -18,11 +18,9 @@
     </Page.Resources>
 
     <Grid>
-        <MediaElement x:ConnectionId='2' x:Name="MusicPlayer" Source="ms-appx:///Assets/LoL_s6_theme.mp3" 
-                                                               />
         <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill" />
         <Rectangle Fill="#444444" Opacity="0.9"/>
-        <Button x:ConnectionId='3' x:Name="BackButton"
+        <Button x:ConnectionId='2' x:Name="BackButton"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
                                                                   
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
@@ -39,7 +37,7 @@
                 <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
                         TextWrapping="Wrap" Canvas.Left="650" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
-                <Slider x:ConnectionId='5' x:Name="MusicSlider" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="100" TabIndex="2"
+                <Slider x:ConnectionId='4' x:Name="MusicSlider" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="100" TabIndex="2"
                                                        Margin="70" Canvas.Left="80"/>
                 <Image Source="/Assets/music.png" Height=" 30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top"
                    Canvas.Left="100" Canvas.Top="70"/>
@@ -55,7 +53,7 @@
             </Canvas>
         </StackPanel>
 
-        <Button x:ConnectionId='4'  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
+        <Button x:ConnectionId='3'  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
                  FontFamily="Cascadia Code" Height="52" Width="52"
                  HorizontalContentAlignment="Left" FontSize="20" CornerRadius="10" 
                                             TabIndex="6">

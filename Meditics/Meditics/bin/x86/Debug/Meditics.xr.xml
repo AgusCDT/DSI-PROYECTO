@@ -110,14 +110,13 @@
     </RootType>
     <RootType FullName="Meditics.GameSelection" />
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
-      <RootProperty Name="Source" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="AreTransportControlsEnabled" />
-      <RootEvent Name="VolumeChanged" />
+      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Meditics.Lobby" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
