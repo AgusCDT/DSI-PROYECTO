@@ -52,13 +52,11 @@
             <StackPanel>
                 <StackPanel Background="#3d051b" Width="300">
                     <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
-                   TextAlignment="Center" TextWrapping="Wrap"/>
+                   TextAlignment="Center" TextWrapping="Wrap" Opacity="0.5"/>
                 </StackPanel>
-                <Button Click="MatchButton_Click"
-                TabIndex="4">
+                <Button TabIndex="4">
                     <Image Source="/Assets/gameMoqup.jpg" Width="300"
-                    Stretch="Fill" Height="300"/>
-                    
+                    Stretch="Fill" Height="300" Opacity="0.5"/>
                 </Button>
             </StackPanel>
         </StackPanel>

@@ -24,7 +24,7 @@
             <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
         </Button>
         <TextBlock x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
-                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40" Text=""
+                   VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40"
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
