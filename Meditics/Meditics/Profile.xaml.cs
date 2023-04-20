@@ -24,7 +24,7 @@ namespace Meditics
     {
         public Profile()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

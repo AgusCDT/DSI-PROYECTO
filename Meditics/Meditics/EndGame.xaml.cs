@@ -20,21 +20,16 @@ namespace Meditics
     /// <summary>
     /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
-    public sealed partial class Options : Page
+    public sealed partial class EndGame : Page
     {
-        public Options()
+        public EndGame()
         {
             InitializeComponent();
         }
 
-        private void BackButton_Click(object sender, RoutedEventArgs e)
+        private void FromEndToLobbyButton_Click(object sender, RoutedEventArgs e)
         {
-            App.TryGoBack();
-        }
-
-        private void LogOutButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(Lobby));
         }
     }
 }

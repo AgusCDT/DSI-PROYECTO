@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
-            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
             <Setter Property="FontStyle" Value="Normal"/>
             <Setter Property="FontSize" Value="22"/>
             <Setter Property="Foreground" Value="White"/>
@@ -46,7 +46,7 @@
         <Image Source="/Assets/resolucion.png" Margin="763,358,481,322"/>
         <Button  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
                  FontFamily="Cascadia Code" Height="52" Width="52"
-                 HorizontalContentAlignment="Left" FocusVisualPrimaryBrush="{x:Null}" FontSize="20" CornerRadius="10" 
+                 HorizontalContentAlignment="Left" FontSize="20" CornerRadius="10" 
                  Click="LogOutButton_Click" TabIndex="6">
             <Image Source="/Assets/cerrar-sesion.png" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" 
                    UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-9,-6,-11,-8">

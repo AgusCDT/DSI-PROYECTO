@@ -25,7 +25,16 @@ namespace Meditics
     {
         public Lobby()
         {
-            this.InitializeComponent();
+            InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (e.Parameter != null)
+            {
+                string userText = e.Parameter.ToString();
+                User.Text = userText;
+            }
         }
 
         private void ProfileButton_Click(object sender, RoutedEventArgs e)

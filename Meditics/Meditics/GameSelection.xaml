@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
-            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
             <Setter Property="FontStyle" Value="Normal"/>
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Foreground" Value="White"/>
@@ -21,10 +21,10 @@
         <Image Source="/Assets/pantallacarga3.jpg" Stretch="Fill"/>
         <Button x:Name="BackButton"
                 Style="{StaticResource NavigationBackButtonNormalStyle}"
-                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}" 
+                IsEnabled="{x:Bind Frame.CanGoBack, Mode=OneWay}"
                 ToolTipService.ToolTip="Back" Margin="20" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
-                TabIndex="1"/>
+                Click="BackButton_Click" TabIndex="1"/>
         <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <StackPanel>
                 <StackPanel Background="#7b4812" Width="300">

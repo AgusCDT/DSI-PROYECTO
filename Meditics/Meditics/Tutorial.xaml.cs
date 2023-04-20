@@ -24,7 +24,7 @@ namespace Meditics
     {
         public Tutorial()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private void FlipView_SelectionChanged(object sender, SelectionChangedEventArgs e)

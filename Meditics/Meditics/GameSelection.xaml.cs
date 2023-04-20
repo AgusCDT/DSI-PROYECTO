@@ -24,22 +24,22 @@ namespace Meditics
     {
         public GameSelection()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            App.TryGoBack(); //no funciona
+            App.TryGoBack();
         }
 
         private void TutorialButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Tutorial));
+            Frame.Navigate(typeof(Tutorial));
         }
 
         private void MatchButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Match));
+            Frame.Navigate(typeof(Match));
         }
     }
 }

@@ -24,10 +24,10 @@ namespace Meditics
     {
         public Match()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void PlayersButton_Click(object sender, RoutedEventArgs e)
         {
             if (MiStackPanel.Visibility == Visibility.Collapsed)
             {
@@ -39,9 +39,9 @@ namespace Meditics
             }
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void EndButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(EndGame));
         }
     }
 }

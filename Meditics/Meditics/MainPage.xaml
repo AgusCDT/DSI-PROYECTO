@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <Style TargetType="TextBox" x:Key="CustomTextBoxStyle">
-            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
             <Setter Property="FontStyle" Value="Normal"/>
             <Setter Property="FontSize" Value="12"/>
         </Style>
@@ -26,16 +26,20 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBox Style="{StaticResource CustomTextBoxStyle}" Height="35" Width="160"
+            <TextBox x:Name="User"
+                     Style="{StaticResource CustomTextBoxStyle}" Height="35" Width="160"                    
                      PlaceholderText= "Enter your username" HorizontalAlignment="Center" VerticalAlignment="Top" 
                      CornerRadius="3" Margin="0,50,0,0" Grid.Column="1" Background="#fef8a0"
+                     TextChanged="User_TextChanged"
                      TabIndex="1"/>
-            <PasswordBox PlaceholderText="Enter your password" Height="35" Width="160"
-                         PasswordChar="*" FontFamily="Cascadia Code" FontSize="12"
+            <PasswordBox x:Name="Password"
+                         PlaceholderText="Enter your password" Height="35" Width="160"
+                         PasswordChar="*" FontFamily="Bahnschrift" FontSize="12"
                          HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,120,0,0"
-                         CornerRadius="3" Grid.Column="1" Background="#fef8a0"
+                         CornerRadius="3" Grid.Column="1" Background="#fef8a0"                        
                          TabIndex="2"/>
-            <Border BorderBrush="#fef8a0" BorderThickness="5" Height="290" Width="280" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="3" Grid.Column="1"/>
+            <Border BorderBrush="#fef8a0" BorderThickness="5" Height="290" Width="280" HorizontalAlignment="Center"
+                    VerticalAlignment="Center" CornerRadius="3" Grid.Column="1"/>
 
             <Rectangle Stroke="#006e8c" StrokeThickness="2"  Fill="#fef8a0" 
                        RenderTransformOrigin="0.5,0.5" Margin="-13,-13,262,273" 
@@ -66,17 +70,20 @@
                 </Rectangle.RenderTransform>
             </Rectangle>
 
-            <CheckBox Content="Keep my acount logged in" Height="32" Width="160" FontSize="8" FontFamily="Cascadia Code"
+            <CheckBox Content="Keep my acount logged in" Height="32" Width="160" FontSize="8" FontFamily="Bahnschrift"
                       VerticalContentAlignment="Center" RequestedTheme="Dark" HorizontalAlignment="Center" Margin="0,170,0,0"
                       VerticalAlignment="Top" Grid.Column="1"
                       TabIndex="3"/>
 
-            <Button Content="Submit" FontFamily="Cascadia Code"
-                    Foreground="Black" Background="White" BorderThickness="2" 
+            <Button Content="Submit" FontFamily="Bahnschrift"
+                    Foreground="Black" Background="#fef8a0" BorderThickness="2" 
                     Width="100" CornerRadius="3" Click="Login_Click"
                     HorizontalAlignment="Center" VerticalAlignment="Top"
-                    Margin="0,221,0,0" Grid.Column="1" Height="29"
+                    Margin="0,221,0,0" Grid.Column="1" Height="29" FontSize="18"
                     TabIndex="4"/>
+            <HyperlinkButton Content="Regístrate aquí" NavigateUri="https://teamfighttactics.leagueoflegends.com/es-es/"
+                             FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                             Grid.Column="1" Margin="20, 5" FontFamily="Bahnschrift"/>
         </Grid>
 
         <Button  VerticalAlignment="Bottom" HorizontalAlignment="Left"
