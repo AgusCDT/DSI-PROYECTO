@@ -28,7 +28,7 @@
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
-                   FontSize="16"/>
+                   FontSize="16" />
 
         <Button x:ConnectionId='4'                              Margin="0,15" VerticalAlignment="Top" Width="55" Height="50" HorizontalAlignment="Right">
             <Image Source="/assets/settings.png" Stretch="Fill"/>
@@ -64,16 +64,16 @@
 
                 </Grid>
             </Grid>
-            <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="visible" Margin="0,0,0,40">
+            <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Width="200" Grid.Column="0">
-                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
-                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
-                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
-                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" VerticalAlignment="Stretch"/>
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
                 <Grid Grid.Column="1">
                     <Grid.RowDefinitions>

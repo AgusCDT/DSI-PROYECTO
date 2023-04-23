@@ -28,7 +28,7 @@
                    FontSize="20"/>
         <TextBlock Text="Lvl. 20" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
-                   FontSize="16"/>
+                   FontSize="16" />
 
         <Button Click="SettingsButton_Click" Margin="0,15" VerticalAlignment="Top" Width="55" Height="50" HorizontalAlignment="Right">
             <Image Source="/assets/settings.png" Stretch="Fill"/>

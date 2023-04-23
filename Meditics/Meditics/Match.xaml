@@ -20,6 +20,10 @@
 
     <Grid>
         <Image Source="/Assets/mapa.png" Stretch="Fill"/>
+        <Grid x:Name="Terreno">
+            <Grid x:Name="hijo1" Width="20" Height="20" Margin="527,309,733,391"/>
+            <Grid x:Name="hijo2" Width="20" Height="20"/>
+        </Grid>
         <StackPanel Width="300" HorizontalAlignment="Left">
             <Button Content="PLAYERS" Click="PlayersButton_Click" Background="White"/>
             <StackPanel x:Name="MiStackPanel" Visibility="Visible" Orientation="Vertical">
@@ -61,9 +65,12 @@
                     <Setter Property="Margin" Value="0,0,25,0"/>
                 </Style>
             </StackPanel.Resources>
-            <Button Width="80">
-                <Image Source="/assets/resolucion.png" Width="auto"/>
-            </Button>
+            <ContentControl>
+                <Button Width="80">
+                    <Image Source="/assets/resolucion.png" Width="auto" CanDrag="True" DragStarting="Image_DragStarting" DropCompleted="Image_DropCompleted"/>
+                </Button>
+            </ContentControl>
+            
             <Button Width="80">
                 <Image Source="/assets/resolucion.png" Width="auto"/>
             </Button>
