@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Agustín Castro De Troya
+// Pablo Cao Calvo
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,21 +20,16 @@ using Windows.UI.Xaml.Navigation;
 using Windows.Media.Playback;
 using Windows.Media.Core;
 
-// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
 namespace Meditics
 {
-    /// <summary>
-    /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
-    /// </summary>
     public sealed partial class MainPage : Page
     {
         private string userText = null; 
                         
         public MainPage()
         {
-            InitializeComponent();
-            
+            InitializeComponent();          
         }
 
         private async void Login_Click(object sender, RoutedEventArgs e)

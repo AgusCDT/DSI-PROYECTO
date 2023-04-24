@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Agustín Castro De Troya
+// Pablo Cao Calvo
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,16 +18,12 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace Meditics
-{
-    /// <summary>
-    /// Una página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
-    /// </summary>
-    
+{   
     public sealed partial class Profile : Page
     {
+        bool visibleT= false;
+        bool visibleA= false;
         public Profile()
         {
             InitializeComponent();
@@ -32,16 +31,55 @@ namespace Meditics
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Lobby), UserTextBox.Text);
+            Frame.Navigate(typeof(Lobby), UserTextBlock.Text);
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            UserTextBlock.Text = UserTextBox.Text;
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            UserTextBox.Text=e.Parameter.ToString();
+            
+            UserTextBlock.Text=e.Parameter.ToString();
+        }
+
+        private void ChangeUserButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(!visibleT)
+            {
+                UserTextBlock.Visibility= Visibility.Collapsed;
+                UserTextBox.Visibility = Visibility.Visible;
+                visibleT = true;
+            }
+            else
+            {
+                UserTextBox.Visibility = Visibility.Collapsed;
+                UserTextBlock.Visibility = Visibility.Visible;
+                visibleT = false;
+            }
+            
+        }
+
+        private void ChangeAvatarButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (!visibleA)
+            {
+                AvatarScroller.Visibility = Visibility.Visible;
+                visibleA = true;
+            }
+            else
+            {
+                AvatarScroller.Visibility = Visibility.Collapsed;
+                visibleA = false;
+            }
+            
+        }
+
+        private void Avatares_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {          
+                var img = (Image)((ListViewItem)Avatares.SelectedItem).Content;              
+                Avatar.Source = img.Source;
         }
     }
 }

@@ -21,7 +21,7 @@
         <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill"/>
 
         <Button x:ConnectionId='2'                             Width="100" Height="100" VerticalAlignment="Top" CornerRadius="100">
-            <Image Source="/assets/playerIcon.png" Margin="-25,-24,-25,-26"/>
+            <Image x:ConnectionId='12' x:Name="Avatar"  Margin="-25,-24,-25,0" Height="50" VerticalAlignment="Top"/>
         </Button>
         <TextBlock x:ConnectionId='3' x:Name="User" Style="{StaticResource CustomTextBlockStyle}" 
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="110, 40"

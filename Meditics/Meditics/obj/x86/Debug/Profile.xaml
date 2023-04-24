@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <Style TargetType="TextBox" x:Key="CustomTextBoxStyle">
-            <Setter Property="FontFamily" Value="Cascadia Code"/>
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
             <Setter Property="FontStyle" Value="Normal"/>
             <Setter Property="FontSize" Value="22"/>
             <Setter Property="Foreground" Value="White"/>
@@ -21,7 +21,7 @@
     <Grid>
         <Grid.Resources>
             <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
-                <Setter Property="FontFamily" Value="Cascadia Code"/>
+                <Setter Property="FontFamily" Value="Bahnschrift"/>
                 <Setter Property="FontStyle" Value="Normal"/>
                 <Setter Property="FontSize" Value="28"/>
                 <Setter Property="Foreground" Value="#FFFFA834"/>
@@ -47,22 +47,34 @@
                     <RowDefinition Height="170"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <Rectangle Fill="#006e8c" Grid.Row="0"/>
+                <Rectangle Fill="#006e8c" Grid.Row="0" Margin="0,-3,0,3"/>
                 <Rectangle Fill="#003748" Grid.Row="1"/>
                 <StackPanel Margin="-12,0,0,1" HorizontalAlignment="Left" Width="184">
-                    <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
+                    <Image x:ConnectionId='10' x:Name="Avatar" Source="/Assets/playerIcon.png" Width="143" Height="146"/>
                 </StackPanel>
-
-                <TextBox x:ConnectionId='4' x:Name="UserTextBox" Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,29,0,0" TextWrapping="Wrap" 
-                         Text="USERNAME" VerticalAlignment="Top" Grid.Row="0"                                  />
-                <Button Margin="294,38,0,0" VerticalAlignment="Top" Height="18" Width="22" TabIndex="2">
-                    <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
-                </Button>
-                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="168,73,0,0" TextWrapping="Wrap" 
-                         Text="LVL.20" VerticalAlignment="Top" Grid.Row="0"/>
+                <StackPanel Margin="148,10,777,98">
+                    <TextBlock x:ConnectionId='9' x:Name="UserTextBlock" HorizontalAlignment="Left" Margin="0,20" TextWrapping="Wrap" 
+                               VerticalAlignment="Top" Grid.Row="0" Visibility="Visible" FontSize="22" FontFamily="Bahnschrift"
+                               Foreground="White" />
+                </StackPanel>
+                <StackPanel Margin="148,10,777,98">
+                    <TextBox x:ConnectionId='8' x:Name="UserTextBox" Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="0,20" TextWrapping="Wrap" 
+                             VerticalAlignment="Top" Grid.Row="0" Visibility="Collapsed"                                  />
+                </StackPanel>
+                <StackPanel Margin="279,26,737,104">
+                    <Button x:ConnectionId='7' Height="39" Width="42" TabIndex="2" 
+                                                      >
+                        <Image Source="/Assets/editar.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
+                    </Button>
+                </StackPanel>
+                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" 
+                         Text="LVL.20" Grid.Row="0" Margin="150,84,0,0"/>
+                <ProgressBar HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="146"
+                             CornerRadius="10" Grid.Row="0" Margin="255,92,0,0"/>
                 <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="31,135,0,0" TextWrapping="Wrap" 
                          Text="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" FontSize="12"/>
-                <Button Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353" TabIndex="3">
+                <Button x:ConnectionId='4' Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353" TabIndex="3"
+                                                        >
                     <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
                 </Button>
 
@@ -70,27 +82,29 @@
                         TextWrapping="Wrap"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="198,10,0,0"/>
                 <TextBlock Text="ESTADÍSTICAS" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="225" TextAlignment="Center"
                         TextWrapping="Wrap"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="690,12,0,0" RenderTransformOrigin="0.479,0.651"/>
-                <ProgressBar HorizontalAlignment="Left" Height="27" Margin="298,81,0,0" VerticalAlignment="Top" Width="146"
-                             CornerRadius="10" Grid.Row="0"/>
-                <ScrollViewer Grid.Row="1" Margin="56,47,565,6"  VerticalScrollBarVisibility="Visible" TabIndex="4">
-                    <ListView>
-                        <Canvas>
-                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
-                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146" Canvas.Left="145"/>
-                            <Image Source="/Assets/playerIcon.png" Width="143" Height="146" Canvas.Left="290"/>
-                        </Canvas>
-                        
-                    </ListView>
+
+                <ScrollViewer x:ConnectionId='5' x:Name="AvatarScroller" Grid.Row="1" Margin="56,47,565,6" VerticalScrollBarVisibility="Visible"
+                              TabIndex="4" Visibility="Collapsed">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <ListView x:ConnectionId='6' x:Name="Avatares"                                             >
+                            <ListViewItem>
+                                <Image Source="/Assets/play.png" Width="143" Height="146"/>
+                            </ListViewItem>
+                            <ListViewItem>
+                                <Image Source="/Assets/edit.png" Width="143" Height="146"/>
+                            </ListViewItem>
+                            <ListViewItem>
+                                <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
+                            </ListViewItem>
+                        </ListView>
+                    </StackPanel>
                 </ScrollViewer>
                 <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible" TabIndex="5">
-                    <ListView >
-
+                    <ListView>
+                        <TextBlock Text="TODAVÍA NO TIENES ESTADÍSTICAS" FontSize="24"
+                                   FontFamily="Bahnschrift" Foreground="White" TextWrapping="Wrap"/>
                     </ListView>
                 </ScrollViewer>
-
-
-
-
             </Grid>
         </Canvas>
     </Grid>
