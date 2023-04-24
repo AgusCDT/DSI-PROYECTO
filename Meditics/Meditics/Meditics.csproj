@@ -170,6 +170,8 @@
     <Content Include="Assets\playerIA.jpg" />
     <Content Include="Assets\playerIcon.jpg" />
     <Content Include="Assets\playerIcon.png" />
+    <Content Include="Assets\playerIcon2.png" />
+    <Content Include="Assets\playerIcon3.png" />
     <Content Include="Assets\profileMoqup.jpg" />
     <Content Include="Assets\resolucion.png" />
     <Content Include="Assets\settings.png" />

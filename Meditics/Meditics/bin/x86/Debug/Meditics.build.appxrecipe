@@ -67,6 +67,12 @@
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.png">
       <PackagePath>Assets\playerIcon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon2.png">
+      <PackagePath>Assets\playerIcon2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon3.png">
+      <PackagePath>Assets\playerIcon3.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
     </AppxPackagedFile>

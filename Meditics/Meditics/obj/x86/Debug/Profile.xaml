@@ -88,10 +88,10 @@
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <ListView x:ConnectionId='6' x:Name="Avatares"                                             >
                             <ListViewItem>
-                                <Image Source="/Assets/play.png" Width="143" Height="146"/>
+                                <Image Source="/Assets/playerIcon2.png" Width="143" Height="146"/>
                             </ListViewItem>
                             <ListViewItem>
-                                <Image Source="/Assets/edit.png" Width="143" Height="146"/>
+                                <Image Source="/Assets/playerIcon3.png" Width="143" Height="146"/>
                             </ListViewItem>
                             <ListViewItem>
                                 <Image Source="/Assets/playerIcon.png" Width="143" Height="146"/>
