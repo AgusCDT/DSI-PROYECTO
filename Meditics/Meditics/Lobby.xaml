@@ -30,14 +30,14 @@
                    VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25, 110"
                    FontSize="16" />
 
-        <Button Click="SettingsButton_Click" Margin="0,15" VerticalAlignment="Top" Width="55" Height="50" HorizontalAlignment="Right">
+        <Button Click="SettingsButton_Click" Margin="0,15" VerticalAlignment="Top" Width="55" Height="50"
+                HorizontalAlignment="Right" TabIndex="5">
             <Image Source="/assets/settings.png" Stretch="Fill"/>
         </Button>
 
         <Button Content="JUGAR" Click="SelectGameButton_Click" Margin="0,0,17,40" VerticalAlignment="Bottom" Width="100" Height="50"
                 Background="Orange" HorizontalAlignment="Right" FontFamily="Bahnschrift" Foreground="White"
-                FontSize="22" FontWeight="ExtraBold">
-        </Button>
+                FontSize="22" FontWeight="ExtraBold" TabIndex="6"/>
 
         <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxWidth="800">
             <Grid.RowDefinitions>
@@ -45,9 +45,12 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50" Height="50">
-                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift" Click="Lobby_Click" VerticalAlignment="Stretch"/>
-                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Tienda_Click" VerticalAlignment="Stretch"/>
-                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift" Click="Inventario_Click" VerticalAlignment="Stretch"/>
+                <Button x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" 
+                        FontFamily="Bahnschrift" Click="Lobby_Click" VerticalAlignment="Stretch" TabIndex="2"/>
+                <Button x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" 
+                        FontFamily="Bahnschrift" Click="Tienda_Click" VerticalAlignment="Stretch" TabIndex="3"/>
+                <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" 
+                        FontFamily="Bahnschrift" Click="Inventario_Click" VerticalAlignment="Stretch" TabIndex="4"/>
             </StackPanel>
             <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
@@ -60,9 +63,6 @@
                     <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                     <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
-                <Grid>
-
-                </Grid>
             </Grid>
             <Grid Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
@@ -107,6 +107,6 @@
             </Grid>
         </Grid>
         <MediaElement x:Name="VideoLobby" Height="150" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="25, 130"
-                      AreTransportControlsEnabled="True" Source="ms-appx:///Assets/tftTrailer.mp4" />
+                      AreTransportControlsEnabled="True" Source="ms-appx:///Assets/tftTrailer.mp4" TabFocusNavigation="Once"/>
     </Grid>
 </Page>

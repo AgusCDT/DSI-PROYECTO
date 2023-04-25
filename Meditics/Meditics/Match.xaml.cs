@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.DataTransfer;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -127,6 +128,44 @@ namespace Meditics
         private void syn_PointerExited(object sender, PointerRoutedEventArgs e)
         {
             synopup.IsOpen = false;
+        }
+
+        private void StackPanel_DragStarting(UIElement sender, DragStartingEventArgs args)
+        {
+            args.Data.SetText((sender as ContentControl).Name);
+            args.Data.RequestedOperation = DataPackageOperation.Copy;
+        }
+
+        private async void Terreno_Drop(object sender, DragEventArgs e)
+        {
+            var Oname = await e.DataView.GetTextAsync();
+            Object O = FindName(Oname.ToString());
+
+            if ((O as ContentControl).Parent == Shop)
+            {
+                Point PD = e.GetPosition(Terreno);
+                Shop.Children.Remove((O as ContentControl));
+                Terreno.Children.Add((O as ContentControl));
+                CompositeTransform transform = new CompositeTransform();
+                transform.TranslateX = PD.X;
+                transform.TranslateY = PD.Y;
+                transform.Rotation = 0;
+                (O as ContentControl).RenderTransform = transform;               
+            }
+            else
+            {
+                Point PD = e.GetPosition(Terreno);
+                CompositeTransform transform = new CompositeTransform();
+                transform.TranslateX = PD.X;
+                transform.TranslateY = PD.Y;
+                transform.Rotation = 0;
+                (O as ContentControl).RenderTransform = transform;
+            }
+        }
+
+        private void Terreno_DragOver(object sender, DragEventArgs e)
+        {
+            e.AcceptedOperation = DataPackageOperation.Copy;
         }
     }
 }

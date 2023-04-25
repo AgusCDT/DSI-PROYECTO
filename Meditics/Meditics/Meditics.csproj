@@ -167,6 +167,10 @@
     <Content Include="Assets\pantallacarga.jpeg" />
     <Content Include="Assets\pantallacarga2.jpeg" />
     <Content Include="Assets\pantallacarga3.jpg" />
+    <Content Include="Assets\pj1.png" />
+    <Content Include="Assets\pj2.png" />
+    <Content Include="Assets\pj3.png" />
+    <Content Include="Assets\pj4.png" />
     <Content Include="Assets\play.png" />
     <Content Include="Assets\playerIA.jpg" />
     <Content Include="Assets\playerIcon.jpg" />

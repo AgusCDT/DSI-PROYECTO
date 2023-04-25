@@ -26,17 +26,16 @@
         </Popup>
         <Popup x:ConnectionId='4' x:Name="synopup" IsOpen="False" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Border Background="Black" BorderBrush="Black" BorderThickness="1">
-                <TextBlock x:ConnectionId='21' x:Name="synText" Margin="10" Foreground="White"/>
+                <TextBlock x:ConnectionId='27' x:Name="synText" Margin="10" Foreground="White"/>
             </Border>
         </Popup>
         <Image Source="/Assets/mapa.png" Stretch="Fill"/>
-        <Grid x:ConnectionId='5' x:Name="Terreno">
-            <Grid x:ConnectionId='19' x:Name="hijo1" Width="20" Height="20" Margin="527,309,733,391"/>
-            <Grid x:ConnectionId='20' x:Name="hijo2" Width="20" Height="20"/>
-        </Grid>
+        <Canvas x:ConnectionId='5'  x:Name="Terreno" Margin="178,75,199,208" Background="Transparent"              
+                AllowDrop="True"                                                
+                XYFocusKeyboardNavigation="Enabled"/>
         <StackPanel Width="300" HorizontalAlignment="Left">
-            <Button x:ConnectionId='17' Content="PLAYERS"                             Background="Gray"/>
-            <StackPanel x:ConnectionId='18' x:Name="MiStackPanel" Visibility="Collapsed" Orientation="Vertical">
+            <Button x:ConnectionId='25' Content="PLAYERS"                             Background="Gray"/>
+            <StackPanel x:ConnectionId='26' x:Name="MiStackPanel" Visibility="Collapsed" Orientation="Vertical">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/assets/playerIcon.png" Width="20"/>
                     <TextBlock Text="player1" Style="{StaticResource CustomTextBlockStyle}"/>
@@ -69,55 +68,56 @@
                 </StackPanel>
             </StackPanel>
         </StackPanel>
-        
-        <Grid x:ConnectionId='6' x:Name="EXP" Background="Gray" Width="100" Height="100" Opacity=".7" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
 
+        <Grid x:ConnectionId='6' x:Name="EXP" Background="Gray" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
+            <Button x:ConnectionId='24' x:Name="EXPB" Width="100" Height="100"                    Background="Gray"/>
             <TextBlock Text="NVL 1" Foreground="White" HorizontalAlignment="Center" FontSize="30"/>
             <TextBlock Text="EXP: 0/10" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="29,0,0,10"/>
             <TextBlock Text="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,42,10" Foreground="White" FontSize="15"/>
-            <Button x:ConnectionId='16' x:Name="EXPB" Width="100" Height="100"                   />
         </Grid>
         <Grid Width="auto" HorizontalAlignment="Center" Margin="0,50" Height="auto">
             <Grid x:ConnectionId='12' x:Name="Refresh" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="DarkCyan" Width="auto" Margin="-75,0,0,0">
                 <TextBlock Text="2" HorizontalAlignment="Left" Foreground="White" FontSize="15" VerticalAlignment="Bottom" Margin="43,0,0,10"/>
                 <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="23,0,0,10"/>
                 <Image Source="/Assets/refresh.png" Width="45" HorizontalAlignment="Center" Margin="0,-11,0,11"/>
-                <Button x:ConnectionId='15' x:Name="RefreshB"                        Width="65" Height="65" Margin="5,5,5,5"/>
+                <Button x:ConnectionId='23' x:Name="RefreshB"                        Width="65" Height="65" Margin="5,5,5,5"/>
             </Grid>
             <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Width="auto">
                 <Grid x:ConnectionId='13' x:Name="Coins" Background="DarkCyan" Width="40" Height="24">
                     <Image Source="/Assets/coins.png" Width="20" HorizontalAlignment="Left"/>
                     <TextBlock Text="0" FontSize="20" Foreground="White" HorizontalAlignment="Right" Margin="0,-3,4,3"/>
                 </Grid>
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="500" Background="DarkCyan" Height="75">
+                <StackPanel x:ConnectionId='14' x:Name="Shop" Orientation="Horizontal" HorizontalAlignment="Center" Width="398" Background="DarkCyan" Height="75">
                     <StackPanel.Resources>
                         <Style TargetType="Button">
-                            <Setter Property="Margin" Value="0,0,25,0"/>
+                            <Setter Property="Margin" Value="0,0,5,0"/>
                         </Style>
                     </StackPanel.Resources>
-                    <ContentControl>
-                        <Button Width="80">
-                            <Image x:ConnectionId='14' Source="/assets/resolucion.png" Width="auto" CanDrag="True"                                                                      />
-                        </Button>
+                    <ContentControl x:ConnectionId='15' x:Name="MiContentControl1"                                        CanDrag="True" Margin="10,0">
+                        <StackPanel x:ConnectionId='22' x:Name="P1">
+                            <Image Source="/assets/pj1.png" Width="80" Height="80"/>
+                        </StackPanel>
                     </ContentControl>
-
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
+                    <ContentControl x:ConnectionId='16' x:Name="MiContentControl2"                                        CanDrag="True" Margin="10,0">
+                        <StackPanel x:ConnectionId='21' x:Name="P2" >
+                            <Image Source="/assets/pj2.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:ConnectionId='17' x:Name="MiContentControl3"                                        CanDrag="True" Margin="10,0">
+                        <StackPanel x:ConnectionId='20' x:Name="O3">
+                            <Image Source="/assets/pj3.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:ConnectionId='18' x:Name="MiContentControl4"                                        CanDrag="True" Margin="10,0">
+                        <StackPanel x:ConnectionId='19' x:Name="O4">
+                            <Image Source="/assets/pj4.png" Width="90" Height="90"/>
+                        </StackPanel>
+                    </ContentControl>
                 </StackPanel>
             </StackPanel>
         </Grid>
-        
+
         <ListView HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,240,0,0">
             <ListViewItem>
                 <StackPanel Orientation="Horizontal">

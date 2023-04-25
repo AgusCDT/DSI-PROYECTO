@@ -1,4 +1,3 @@
-WinMetadata\Windows.winmd
 Assets\alto-volumen.png
 Assets\asterisco.png
 Assets\cerrar-sesion.png
@@ -15,6 +14,10 @@ Assets\nota-musical.png
 Assets\pantallacarga.jpeg
 Assets\pantallacarga2.jpeg
 Assets\pantallacarga3.jpg
+Assets\pj1.png
+Assets\pj2.png
+Assets\pj3.png
+Assets\pj4.png
 Assets\play.png
 Assets\playerIA.jpg
 Assets\playerIcon.jpg
@@ -50,3 +53,4 @@ Options.xbf
 Profile.xbf
 Tutorial.xbf
 Properties\Default.rd.xml
+WinMetadata\Windows.winmd

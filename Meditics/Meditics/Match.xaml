@@ -30,10 +30,9 @@
             </Border>
         </Popup>
         <Image Source="/Assets/mapa.png" Stretch="Fill"/>
-        <Grid x:Name="Terreno">
-            <Grid x:Name="hijo1" Width="20" Height="20" Margin="527,309,733,391"/>
-            <Grid x:Name="hijo2" Width="20" Height="20"/>
-        </Grid>
+        <Canvas  x:Name="Terreno" Margin="178,75,199,208" Background="Transparent"              
+                AllowDrop="True" Drop="Terreno_Drop" DragOver="Terreno_DragOver"
+                XYFocusKeyboardNavigation="Enabled"/>
         <StackPanel Width="300" HorizontalAlignment="Left">
             <Button Content="PLAYERS" Click="PlayersButton_Click" Background="Gray"/>
             <StackPanel x:Name="MiStackPanel" Visibility="Collapsed" Orientation="Vertical">
@@ -69,14 +68,13 @@
                 </StackPanel>
             </StackPanel>
         </StackPanel>
-        
-        <Grid x:Name="EXP" Background="Gray" Width="100" Height="100" Opacity=".7" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
 
+        <Grid x:Name="EXP" Background="Gray" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
+            <Button x:Name="EXPB" Width="100" Height="100" Click="EXPB_Click" Background="Gray"/>
             <TextBlock Text="NVL 1" Foreground="White" HorizontalAlignment="Center" FontSize="30"/>
             <TextBlock Text="EXP: 0/10" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="29,0,0,10"/>
             <TextBlock Text="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,42,10" Foreground="White" FontSize="15"/>
-            <Button x:Name="EXPB" Width="100" Height="100" Click="EXPB_Click"/>
         </Grid>
         <Grid Width="auto" HorizontalAlignment="Center" Margin="0,50" Height="auto">
             <Grid x:Name="Refresh" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="DarkCyan" Width="auto" Margin="-75,0,0,0">
@@ -90,34 +88,36 @@
                     <Image Source="/Assets/coins.png" Width="20" HorizontalAlignment="Left"/>
                     <TextBlock Text="0" FontSize="20" Foreground="White" HorizontalAlignment="Right" Margin="0,-3,4,3"/>
                 </Grid>
-                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="500" Background="DarkCyan" Height="75">
+                <StackPanel x:Name="Shop" Orientation="Horizontal" HorizontalAlignment="Center" Width="398" Background="DarkCyan" Height="75">
                     <StackPanel.Resources>
                         <Style TargetType="Button">
-                            <Setter Property="Margin" Value="0,0,25,0"/>
+                            <Setter Property="Margin" Value="0,0,5,0"/>
                         </Style>
                     </StackPanel.Resources>
-                    <ContentControl>
-                        <Button Width="80">
-                            <Image Source="/assets/resolucion.png" Width="auto" CanDrag="True" DragStarting="Image_DragStarting" DropCompleted="Image_DropCompleted"/>
-                        </Button>
+                    <ContentControl x:Name="MiContentControl1" DragStarting="StackPanel_DragStarting" CanDrag="True" Margin="10,0">
+                        <StackPanel x:Name="P1">
+                            <Image Source="/assets/pj1.png" Width="80" Height="80"/>
+                        </StackPanel>
                     </ContentControl>
-
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
-                    <Button Width="80">
-                        <Image Source="/assets/resolucion.png" Width="auto"/>
-                    </Button>
+                    <ContentControl x:Name="MiContentControl2" DragStarting="StackPanel_DragStarting" CanDrag="True" Margin="10,0">
+                        <StackPanel x:Name="P2" >
+                            <Image Source="/assets/pj2.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:Name="MiContentControl3" DragStarting="StackPanel_DragStarting" CanDrag="True" Margin="10,0">
+                        <StackPanel x:Name="O3">
+                            <Image Source="/assets/pj3.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:Name="MiContentControl4" DragStarting="StackPanel_DragStarting" CanDrag="True" Margin="10,0">
+                        <StackPanel x:Name="O4">
+                            <Image Source="/assets/pj4.png" Width="90" Height="90"/>
+                        </StackPanel>
+                    </ContentControl>
                 </StackPanel>
             </StackPanel>
         </Grid>
-        
+
         <ListView HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,240,0,0">
             <ListViewItem>
                 <StackPanel Orientation="Horizontal">

@@ -83,12 +83,12 @@
                     TabIndex="4"/>
             <HyperlinkButton Content="Regístrate aquí" NavigateUri="https://teamfighttactics.leagueoflegends.com/es-es/"
                              FontSize="10" HorizontalAlignment="Right" VerticalAlignment="Bottom" 
-                             Grid.Column="1" Margin="20, 5" FontFamily="Bahnschrift"/>
+                             Grid.Column="1" Margin="20, 5" FontFamily="Bahnschrift" TabIndex="5"/>
         </Grid>
 
         <Button  VerticalAlignment="Bottom" HorizontalAlignment="Left"
                  Background="White" CornerRadius="3"
-                 Click="ExitButton_Click" TabIndex="5"
+                 Click="ExitButton_Click" TabIndex="6"
                  Margin="20">
             <Image Source="/Assets/exitbutton.png" Height="51" Width="42"/>
         </Button>

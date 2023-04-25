@@ -7,7 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
     <Page.Resources>
         <Style TargetType="TextBox" x:Key="CustomTextBoxStyle">
             <Setter Property="FontFamily" Value="Bahnschrift"/>
@@ -25,7 +24,6 @@
                 <Setter Property="FontStyle" Value="Normal"/>
                 <Setter Property="FontSize" Value="28"/>
                 <Setter Property="Foreground" Value="#FFFFA834"/>
-
             </Style>
         </Grid.Resources>
 
@@ -59,7 +57,7 @@
                 </StackPanel>
                 <StackPanel Margin="148,10,777,98">
                     <TextBox x:ConnectionId='8' x:Name="UserTextBox" Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="0,20" TextWrapping="Wrap" 
-                             VerticalAlignment="Top" Grid.Row="0" Visibility="Collapsed"                                  />
+                             VerticalAlignment="Top" Grid.Row="0" Visibility="Collapsed"                                   TabIndex="3"/>
                 </StackPanel>
                 <StackPanel Margin="279,26,737,104">
                     <Button x:ConnectionId='7' Height="39" Width="42" TabIndex="2" 
@@ -67,13 +65,16 @@
                         <Image Source="/Assets/editar.png" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" />
                     </Button>
                 </StackPanel>
-                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" 
-                         Text="LVL.20" Grid.Row="0" Margin="150,84,0,0"/>
+                <ContentControl HorizontalAlignment="Left" VerticalAlignment="Top" 
+                         Content="LVL.20" Grid.Row="0" Margin="150,84,0,0" IsTabStop="False"
+                                FontFamily="Bahnschrift"  Foreground="White" FontSize="22"/>
                 <ProgressBar HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="146"
-                             CornerRadius="10" Grid.Row="0" Margin="255,92,0,0"/>
-                <TextBox Style="{StaticResource CustomTextBoxStyle}" HorizontalAlignment="Left" Margin="31,135,0,0" TextWrapping="Wrap" 
-                         Text="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" FontSize="12"/>
-                <Button x:ConnectionId='4' Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353" TabIndex="3"
+                             CornerRadius="10" Grid.Row="0" Margin="227,84,0,0" IsTapEnabled="False"/>
+                <ContentControl HorizontalAlignment="Left" Margin="47,144,0,0"
+                                Content="EDIT AVATAR" VerticalAlignment="Top" Grid.Row="0" 
+                                FontSize="12" Foreground="White" FontFamily="Bahnschrift"
+                                IsTabStop="False"/>
+                <Button x:ConnectionId='4' Margin="136,142,0,0" VerticalAlignment="Top" Height="15" Width="19" RenderTransformOrigin="0.279,0.353" TabIndex="4"
                                                         >
                     <Image Source="/Assets/editar.png" RenderTransformOrigin="5.167,0.244" Margin="-10,-6,-10,-7"/>
                 </Button>
@@ -84,7 +85,7 @@
                         TextWrapping="Wrap"  HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="1" Margin="690,12,0,0" RenderTransformOrigin="0.479,0.651"/>
 
                 <ScrollViewer x:ConnectionId='5' x:Name="AvatarScroller" Grid.Row="1" Margin="56,47,565,6" VerticalScrollBarVisibility="Visible"
-                              TabIndex="4" Visibility="Collapsed">
+                              Visibility="Collapsed" >
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <ListView x:ConnectionId='6' x:Name="Avatares"                                             >
                             <ListViewItem>
@@ -99,11 +100,10 @@
                         </ListView>
                     </StackPanel>
                 </ScrollViewer>
-                <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible" TabIndex="5">
-                    <ListView>
-                        <TextBlock Text="TODAVÍA NO TIENES ESTADÍSTICAS" FontSize="24"
-                                   FontFamily="Bahnschrift" Foreground="White" TextWrapping="Wrap"/>
-                    </ListView>
+                <ScrollViewer Grid.Row="1" Margin="574,49,47,4"  VerticalScrollBarVisibility="Visible">
+                    <ContentControl Content="TODAVÍA NO TIENES ESTADÍSTICAS" FontSize="24"
+                                   FontFamily="Bahnschrift" Foreground="White"
+                                   TabIndex="-1"/>
                 </ScrollViewer>
             </Grid>
         </Canvas>
