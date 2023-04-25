@@ -67,5 +67,66 @@ namespace Meditics
                 child.Background= new SolidColorBrush(Windows.UI.Colors.Transparent);
             }
         }
+
+        private void RefreshB_Click(object sender, RoutedEventArgs e)
+        {
+            messagePopup.IsOpen = true;
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(2);
+            timer.Tick += (s, args) =>
+            {
+                // Set the IsOpen property of the popup to false when the timer ticks
+                messagePopup.IsOpen = false;
+
+                // Stop the timer
+                timer.Stop();
+            };
+            timer.Start();
+        }
+
+        private void EXPB_Click(object sender, RoutedEventArgs e)
+        {
+            messagePopup.IsOpen = true;
+
+            // Create a dispatcher timer and start it with an interval of 3 seconds
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(2);
+            timer.Tick += (s, args) =>
+            {
+                // Set the IsOpen property of the popup to false when the timer ticks
+                messagePopup.IsOpen = false;
+
+                // Stop the timer
+                timer.Stop();
+            };
+            timer.Start();
+        }
+
+        private void syn2_Click(object sender, RoutedEventArgs e)
+        {
+            synopup.IsOpen = true;
+            TextBlock myTextBlock = (TextBlock)synopup.FindName("synText");
+            myTextBlock.Text = "Al tener 4 o más herreros en tu terreno de juego se otorgará a todos tus personajes:\n+20% Velocidad de ataque\n+15% Daño físico";
+        }
+
+        private void syn1_Click(object sender, RoutedEventArgs e)
+        {
+            synopup.IsOpen = true;
+            TextBlock myTextBlock = (TextBlock)synopup.FindName("synText");
+            myTextBlock.Text = "Al tener 3 o más magos en tu terreno de juego se otorgará a todos tus personajes:\n+10% Daño mágico\n-10% Tiempo de habilidad";
+        }
+
+        private void syn3_Click(object sender, RoutedEventArgs e)
+        {
+            synopup.IsOpen = true;
+            TextBlock myTextBlock = (TextBlock)synopup.FindName("synText");
+            myTextBlock.Text = "Al tener 2 o más guardianes en tu terreno de juego se otorgará a todos tus personajes:\n+5% Resistencia física\n+5% Resistencia mágica\n+10% Salud máxima";
+
+        }
+
+        private void syn_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            synopup.IsOpen = false;
+        }
     }
 }

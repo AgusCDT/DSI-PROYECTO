@@ -1,6 +1,8 @@
+WinMetadata\Windows.winmd
 Assets\alto-volumen.png
 Assets\asterisco.png
 Assets\cerrar-sesion.png
+Assets\coins.png
 Assets\editar.png
 Assets\exitbutton.png
 Assets\gameMoqup.jpg
@@ -20,6 +22,7 @@ Assets\playerIcon.png
 Assets\playerIcon2.png
 Assets\playerIcon3.png
 Assets\profileMoqup.jpg
+Assets\refresh.png
 Assets\resolucion.png
 Assets\settings.png
 Assets\SplashScreen.scale-200.png
@@ -27,6 +30,9 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\synGuard.png
+Assets\synHerr.png
+Assets\synMage.png
 Assets\tftimage.jpg
 Assets\tftTrailer.mp4
 Assets\usuario.png
@@ -44,4 +50,3 @@ Options.xbf
 Profile.xbf
 Tutorial.xbf
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd

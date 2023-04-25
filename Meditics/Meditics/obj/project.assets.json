@@ -10255,18 +10255,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Agustin Castro\\.nuget\\packages\\": {},
+    "C:\\Users\\pabca\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
+      "projectUniqueName": "C:\\Users\\pabca\\OneDrive\\Documentos\\GitHub\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
       "projectName": "Meditics",
-      "projectPath": "C:\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
-      "packagesPath": "C:\\Users\\Agustin Castro\\.nuget\\packages\\",
-      "outputPath": "C:\\DSI-PROYECTO\\Meditics\\Meditics\\obj\\",
+      "projectPath": "C:\\Users\\pabca\\OneDrive\\Documentos\\GitHub\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
+      "packagesPath": "C:\\Users\\pabca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pabca\\OneDrive\\Documentos\\GitHub\\DSI-PROYECTO\\Meditics\\Meditics\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10274,7 +10274,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Agustin Castro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pabca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

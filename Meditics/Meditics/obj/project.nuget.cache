@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lsWxICMVtYztnPY1KInNnZz6BNOdBsVFaSZl8LgwwDOLuIFnWzNrsxT7HdJ9BpeN/08txATQLYbpsxqx+Tq4HA==",
+  "dgSpecHash": "osAU4xxnP7LzD63rV9W1iQ1PcR+J+4IPQ6v/+dfjtbk/x0R9wA5sbgAegzHmDLuDtHH3fmYl8mo7gnwDaTfWfg==",
   "success": true,
-  "projectFilePath": "C:\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
+  "projectFilePath": "C:\\Users\\pabca\\OneDrive\\Documentos\\GitHub\\DSI-PROYECTO\\Meditics\\Meditics\\Meditics.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.12-rel-31116-00\\microsoft.net.native.compiler.2.2.12-rel-31116-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.14\\microsoft.net.uwpcoreruntimesdk.2.2.14.nupkg.sha512",
