@@ -155,6 +155,8 @@
     <Content Include="Assets\alto-volumen.png" />
     <Content Include="Assets\asterisco.png" />
     <Content Include="Assets\cerrar-sesion.png" />
+    <Content Include="Assets\chest1.png" />
+    <Content Include="Assets\chest2.png" />
     <Content Include="Assets\coins.png" />
     <Content Include="Assets\dolars.png" />
     <Content Include="Assets\editar.png" />
@@ -162,6 +164,10 @@
     <Content Include="Assets\gameMoqup.jpg" />
     <Content Include="Assets\graphics.png" />
     <Content Include="Assets\LoL_s6_theme.mp3" />
+    <Content Include="Assets\map1.png" />
+    <Content Include="Assets\map2.png" />
+    <Content Include="Assets\map3.png" />
+    <Content Include="Assets\map4.png" />
     <Content Include="Assets\mapa.PNG" />
     <Content Include="Assets\music.png" />
     <Content Include="Assets\nota-musical.png" />

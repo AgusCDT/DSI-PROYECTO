@@ -58,6 +58,7 @@ namespace Meditics
 
         private void Lobby_Click(object sender, RoutedEventArgs e)
         {
+            Money.Visibility= Visibility.Collapsed;
             Tienda.Visibility= Visibility.Collapsed;
             Inventario.Visibility= Visibility.Collapsed;
             TIENDAB.Background = new SolidColorBrush(color: Colors.DarkCyan);
@@ -66,6 +67,7 @@ namespace Meditics
         }
         private void Tienda_Click(object sender, RoutedEventArgs e)
         {
+            Money.Visibility= Visibility.Visible;
             Tienda.Visibility = Visibility.Visible;
             Inventario.Visibility = Visibility.Collapsed;
             TIENDAB.Background = new SolidColorBrush(color: Colors.Cyan);
@@ -74,6 +76,7 @@ namespace Meditics
         }
         private void Inventario_Click(object sender, RoutedEventArgs e)
         {
+            Money.Visibility= Visibility.Visible;
             Tienda.Visibility = Visibility.Collapsed;
             Inventario.Visibility = Visibility.Visible;
             TIENDAB.Background = new SolidColorBrush(color: Colors.DarkCyan);
@@ -100,8 +103,52 @@ namespace Meditics
             {
                 PersonajesInv.Children.Add(childGrid);
             }
+            if (parentGrid.Name=="MapasShop")
+            {
+                MapasInv.Children.Add(childGrid);
+            }
+            if (parentGrid.Name == "CofresShop")
+            {
+                CofresInv.Children.Add(childGrid);
+            }
+            if (parentGrid.Name == "OtrosShop")
+            {
+                OtrosInv.Children.Add(childGrid);
+            }
+        }
 
+        private void Cofres_Click(object sender, RoutedEventArgs e)
+        {
+            PersonajesInv.Visibility = Visibility.Collapsed;
+            PersonajesShop.Visibility = Visibility.Collapsed;
+            CofresInv.Visibility = Visibility.Collapsed;
+            CofresShop.Visibility = Visibility.Collapsed;
+            MapasInv.Visibility = Visibility.Collapsed;
+            MapasShop.Visibility = Visibility.Collapsed;
+            OtrosInv.Visibility = Visibility.Collapsed;
+            OtrosShop.Visibility = Visibility.Collapsed;
 
+            Button sends = sender as Button;
+            if (sends.Content.ToString()=="Cofres")
+            {
+                CofresInv.Visibility = Visibility.Visible;
+                CofresShop.Visibility = Visibility.Visible;
+            }
+            if (sends.Content.ToString() == "Mapas")
+            {
+                MapasInv.Visibility = Visibility.Visible;
+                MapasShop.Visibility = Visibility.Visible;
+            }
+            if (sends.Content.ToString() == "Personajes")
+            {
+                PersonajesInv.Visibility = Visibility.Visible;
+                PersonajesShop.Visibility = Visibility.Visible;
+            }
+            if (sends.Content.ToString() == "Otros")
+            {
+                OtrosInv.Visibility = Visibility.Visible;
+                OtrosShop.Visibility = Visibility.Visible;
+            }
         }
     }
 }

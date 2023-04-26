@@ -63,18 +63,22 @@
                 <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" 
                         FontFamily="Bahnschrift" Click="Inventario_Click" VerticalAlignment="Stretch" TabIndex="4"/>
             </StackPanel>
-            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Visible" Margin="0,0,0,40">
+            <StackPanel x:Name="Money" Width="150" HorizontalAlignment="Right" Height="100" VerticalAlignment="Top" Orientation="Horizontal">
+                <Image Source="/Assets/dolars.png" Width="50"/>
+                <TextBlock Text="100000" VerticalAlignment="Center" Margin="10,0" Foreground="Orange" FontSize="20" Visibility="Collapsed"/>
+            </StackPanel>
+            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Width="200">
-                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
                 </StackPanel>
-                <Grid Grid.Column="1" x:Name="PersonajesShop">
+                <Grid Grid.Column="1" x:Name="PersonajesShop" Visibility="Collapsed">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
@@ -127,22 +131,45 @@
                         <TextBlock Style="{StaticResource CostText}" Text="2000"/>
                     </Grid>
                 </Grid>
-                <Grid Grid.Column="1" x:Name="MapasShop"></Grid>
-                <Grid Grid.Column="1" x:Name="CofresShop"></Grid>
-                <Grid Grid.Column="1" x:Name="OtrosShop"></Grid>
-            </Grid>
-            <Grid Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <StackPanel Width="200" Grid.Column="0">
-                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
-                </StackPanel>
-                <Grid Grid.Column="1" x:Name="PersonajesInv">
+                <Grid Grid.Column="1" x:Name="MapasShop" Visibility="Collapsed">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        <Image Source="/Assets/map1.png" Width="250" Height="250" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Odyssey Jinx Arena" Foreground="Orange" FontSize="20"/>
+                        <Button Width="250" Height="220" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="100"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,100,0,0"/>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="1">
+                        <Image Source="/Assets/map2.png" Width="250" Height="250" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Odyssey Malphite Arena" Foreground="Orange" FontSize="20"/>
+                        <Button Width="250" Height="220" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="100"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,100,0,0"/>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="0">
+                        <Image Source="/Assets/map3.png" Width="250" Height="250" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Odyssey Yasuo Arena" Foreground="Orange" FontSize="20"/>
+                        <Button Width="250" Height="220" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="100"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,100,0,0"/>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1">
+                        <Image Source="/Assets/map4.png" Width="250" Height="250" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Freljord Avarosa Arena" Foreground="Orange" FontSize="20"/>
+                        <Button Width="250" Height="220" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="100"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,100,0,0"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="CofresShop" Visibility="Visible">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
@@ -152,6 +179,71 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        <Image Source="/Assets/chest1.png" Width="100" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Cofre básico" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,60,0,0"/>
+                    </Grid>
+                    <Grid Grid.Row="0" Grid.Column="1">
+                        <Image Source="/Assets/chest2.png" Width="100" VerticalAlignment="Center"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0" Text="Cofre épico" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750" Margin="0,60,0,0"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="OtrosShop" Visibility="Collapsed">
+                    <TextBlock Text="Todavía no hay nada a la venta&#x0a;Vuelve más tarde cuando pongamos algo para comprar" FontSize="21" Foreground="Orange" 
+                               VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Width="200" Grid.Column="0">
+                    <Button Content="Cofres" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Mapas" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                    <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105" Click="Cofres_Click"/>
+                </StackPanel>
+                <Grid Grid.Column="1" x:Name="PersonajesInv" Visibility="Collapsed">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="MapasInv" Visibility="Collapsed">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="CofresInv" Visibility="Collapsed">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="OtrosInv" Visibility="Collapsed">
+
                 </Grid>
             </Grid>
         </Grid>

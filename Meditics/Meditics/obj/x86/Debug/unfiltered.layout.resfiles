@@ -1,6 +1,9 @@
+WinMetadata\Windows.winmd
 Assets\alto-volumen.png
 Assets\asterisco.png
 Assets\cerrar-sesion.png
+Assets\chest1.png
+Assets\chest2.png
 Assets\coins.png
 Assets\dolars.png
 Assets\editar.png
@@ -9,6 +12,10 @@ Assets\gameMoqup.jpg
 Assets\graphics.png
 Assets\LockScreenLogo.scale-200.png
 Assets\LoL_s6_theme.mp3
+Assets\map1.png
+Assets\map2.png
+Assets\map3.png
+Assets\map4.png
 Assets\mapa.PNG
 Assets\music.png
 Assets\nota-musical.png
@@ -60,4 +67,3 @@ Options.xbf
 Profile.xbf
 Tutorial.xbf
 Properties\Default.rd.xml
-WinMetadata\Windows.winmd
