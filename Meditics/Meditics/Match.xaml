@@ -30,6 +30,7 @@
             </Border>
         </Popup>
         <Image Source="/Assets/mapa.png" Stretch="Fill"/>
+        <Image Source="/Assets/topinfomatch.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="300"/>
         <Canvas  x:Name="Terreno" Margin="178,75,199,208" Background="Transparent"              
                 AllowDrop="True" Drop="Terreno_Drop" DragOver="Terreno_DragOver"
                 XYFocusKeyboardNavigation="Enabled"/>

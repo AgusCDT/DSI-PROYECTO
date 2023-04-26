@@ -58,6 +58,9 @@ namespace Meditics
 
         private void Lobby_Click(object sender, RoutedEventArgs e)
         {
+            VideoLobby.Visibility= Visibility.Visible;    
+            ProfileGrid.Visibility= Visibility.Visible;
+            VideoLobby.Volume= 100;
             Money.Visibility= Visibility.Collapsed;
             Tienda.Visibility= Visibility.Collapsed;
             Inventario.Visibility= Visibility.Collapsed;
@@ -67,6 +70,9 @@ namespace Meditics
         }
         private void Tienda_Click(object sender, RoutedEventArgs e)
         {
+            VideoLobby.Visibility= Visibility.Collapsed;
+            VideoLobby.Volume = 0;
+            ProfileGrid.Visibility= Visibility.Collapsed;
             Money.Visibility= Visibility.Visible;
             Tienda.Visibility = Visibility.Visible;
             Inventario.Visibility = Visibility.Collapsed;
@@ -76,6 +82,9 @@ namespace Meditics
         }
         private void Inventario_Click(object sender, RoutedEventArgs e)
         {
+            VideoLobby.Visibility= Visibility.Collapsed;
+            ProfileGrid.Visibility= Visibility.Collapsed;
+            VideoLobby.Volume = 0;
             Money.Visibility= Visibility.Visible;
             Tienda.Visibility = Visibility.Collapsed;
             Inventario.Visibility = Visibility.Visible;

@@ -58,9 +58,9 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Visibility" />
       <RootProperty Name="TabFocusNavigation" />
       <RootProperty Name="Resources" />
-      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -77,10 +77,10 @@
       <RootProperty Name="IsFocusEngagementEnabled" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
-      <RootProperty Name="CornerRadius" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Opacity" />
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="ClickMode" />
       <RootProperty Name="HorizontalContentAlignment" />
@@ -104,8 +104,8 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Meditics.EndGame" />
     <RootType FullName="Windows.UI.Xaml.Setter">

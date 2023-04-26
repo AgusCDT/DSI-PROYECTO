@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\mapa.PNG">
       <PackagePath>Assets\mapa.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\matchCap.png">
+      <PackagePath>Assets\matchCap.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\music.png">
       <PackagePath>Assets\music.png</PackagePath>
     </AppxPackagedFile>
@@ -127,6 +130,9 @@
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon3.png">
       <PackagePath>Assets\playerIcon3.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playersCap.png">
+      <PackagePath>Assets\playersCap.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\refresh.png">
       <PackagePath>Assets\refresh.png</PackagePath>
     </AppxPackagedFile>
@@ -144,6 +150,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\synMage.png">
       <PackagePath>Assets\synMage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\topinfomatch.png">
+      <PackagePath>Assets\topinfomatch.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\usuario.png">
       <PackagePath>Assets\usuario.png</PackagePath>

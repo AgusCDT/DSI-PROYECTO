@@ -169,6 +169,7 @@
     <Content Include="Assets\map3.png" />
     <Content Include="Assets\map4.png" />
     <Content Include="Assets\mapa.PNG" />
+    <Content Include="Assets\matchCap.png" />
     <Content Include="Assets\music.png" />
     <Content Include="Assets\nota-musical.png" />
     <Content Include="Assets\obj1.png" />
@@ -190,6 +191,7 @@
     <Content Include="Assets\playerIcon.png" />
     <Content Include="Assets\playerIcon2.png" />
     <Content Include="Assets\playerIcon3.png" />
+    <Content Include="Assets\playersCap.png" />
     <Content Include="Assets\profileMoqup.jpg" />
     <Content Include="Assets\refresh.png" />
     <Content Include="Assets\resolucion.png" />
@@ -199,6 +201,8 @@
     <Content Include="Assets\synMage.png" />
     <Content Include="Assets\tftimage.jpg" />
     <Content Include="Assets\tftTrailer.mp4" />
+    <Content Include="Assets\timeCap.png" />
+    <Content Include="Assets\topinfomatch.png" />
     <Content Include="Assets\usuario.png" />
     <Content Include="Assets\vida.png" />
     <Content Include="Assets\volumen.png" />

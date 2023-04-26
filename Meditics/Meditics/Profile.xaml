@@ -34,8 +34,7 @@
                 ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
                 Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left" 
                 Click="BackButton_Click" TabIndex="1"/>
-        <Canvas Margin="111,111,111,111">
-            <Grid HorizontalAlignment="Center" Height="501" VerticalAlignment="Top" Width="1058"
+            <Grid HorizontalAlignment="Center" Height="501" VerticalAlignment="Center" Width="1058"
                   CornerRadius="10" BorderBrush="Black" BorderThickness="2">
 
                 <Grid.ColumnDefinitions>
@@ -106,6 +105,5 @@
                                    TabIndex="-1"/>
                 </ScrollViewer>
             </Grid>
-        </Canvas>
     </Grid>
 </Page>
