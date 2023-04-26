@@ -30,21 +30,13 @@
     <AppXManifest Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:28.955</Modified>
-=======
-      <Modified>2023-04-26T01:04:07.402</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:55.565</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.exe">
       <PackagePath>entrypoint\Meditics.exe</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.959</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.874</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.540</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -70,15 +62,11 @@
       <PackagePath>Assets\coins.png</PackagePath>
       <Modified>2023-04-25T22:30:15.174</Modified>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
-=======
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\dolars.png">
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\dolars.png">
       <PackagePath>Assets\dolars.png</PackagePath>
-      <Modified>2023-04-26T00:26:43.610</Modified>
+      <Modified>2023-04-26T12:54:13.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
->>>>>>> Stashed changes
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
       <PackagePath>Assets\editar.png</PackagePath>
       <Modified>2023-04-07T15:42:53.525</Modified>
     </AppxPackagedFile>
@@ -102,7 +90,30 @@
       <PackagePath>Assets\nota-musical.png</PackagePath>
       <Modified>2023-04-07T15:28:50.410</Modified>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj1.png">
+      <PackagePath>Assets\obj1.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj2.png">
+      <PackagePath>Assets\obj2.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj3.png">
+      <PackagePath>Assets\obj3.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj4.png">
+      <PackagePath>Assets\obj4.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj5.png">
+      <PackagePath>Assets\obj5.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj6.png">
+      <PackagePath>Assets\obj6.png</PackagePath>
+      <Modified>2023-04-26T12:54:13.403</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj1.png">
       <PackagePath>Assets\pj1.png</PackagePath>
       <Modified>2023-04-25T22:49:59.299</Modified>
@@ -120,33 +131,6 @@
       <Modified>2023-04-25T22:51:28.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
-=======
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj1.png">
-      <PackagePath>Assets\obj1.png</PackagePath>
-      <Modified>2023-04-25T21:49:33.320</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj2.png">
-      <PackagePath>Assets\obj2.png</PackagePath>
-      <Modified>2023-04-25T21:50:03.844</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj3.png">
-      <PackagePath>Assets\obj3.png</PackagePath>
-      <Modified>2023-04-25T21:50:54.661</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj4.png">
-      <PackagePath>Assets\obj4.png</PackagePath>
-      <Modified>2023-04-25T21:51:20.632</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj5.png">
-      <PackagePath>Assets\obj5.png</PackagePath>
-      <Modified>2023-04-25T21:51:43.422</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj6.png">
-      <PackagePath>Assets\obj6.png</PackagePath>
-      <Modified>2023-04-25T21:52:07.410</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
->>>>>>> Stashed changes
       <PackagePath>Assets\play.png</PackagePath>
       <Modified>2023-04-12T13:02:33.805</Modified>
     </AppxPackagedFile>
@@ -278,83 +262,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.xr.xml">
       <PackagePath>Meditics.xr.xml</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:09:28.472</Modified>
-=======
-      <Modified>2023-04-26T00:34:53.201</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.663</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf">
       <PackagePath>EndGame.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.663</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
       <PackagePath>GameSelection.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.663</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
       <PackagePath>Lobby.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.648</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.809</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.422</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.663</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Match.xbf">
       <PackagePath>Match.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.655</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.813</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.664</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Profile.xbf">
       <PackagePath>Profile.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.661</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.817</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.435</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Tutorial.xbf">
       <PackagePath>Tutorial.xbf</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:27.664</Modified>
-=======
-      <Modified>2023-04-26T01:04:06.818</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:54.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -362,19 +306,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T22:54:09.200</Modified>
-=======
-      <Modified>2023-04-26T00:34:53.680</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:36:00.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\Meditics.exe">
       <PackagePath>Meditics.exe</PackagePath>
-<<<<<<< Updated upstream
-      <Modified>2023-04-25T23:11:28.942</Modified>
-=======
-      <Modified>2023-04-26T01:04:07.401</Modified>
->>>>>>> Stashed changes
+      <Modified>2023-04-26T13:49:55.543</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

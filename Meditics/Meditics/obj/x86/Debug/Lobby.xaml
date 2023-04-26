@@ -56,18 +56,12 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0" Margin="0,30,0,50" Height="50">
-<<<<<<< Updated upstream
-                <Button x:ConnectionId='9' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" 
+                <Button x:ConnectionId='20' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" 
                         FontFamily="Bahnschrift"                     VerticalAlignment="Stretch" TabIndex="2"/>
-                <Button x:ConnectionId='10' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" 
+                <Button x:ConnectionId='21' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" 
                         FontFamily="Bahnschrift"                      VerticalAlignment="Stretch" TabIndex="3"/>
-                <Button x:ConnectionId='11' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" 
+                <Button x:ConnectionId='22' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" 
                         FontFamily="Bahnschrift"                          VerticalAlignment="Stretch" TabIndex="4"/>
-=======
-                <Button x:ConnectionId='20' x:Name="LOBBYB" Content="LOBBY" Background="Cyan" Width="120" FontFamily="Bahnschrift"                     VerticalAlignment="Stretch"/>
-                <Button x:ConnectionId='21' x:Name="TIENDAB" Content="TIENDA" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                      VerticalAlignment="Stretch"/>
-                <Button x:ConnectionId='22' x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" FontFamily="Bahnschrift"                          VerticalAlignment="Stretch"/>
->>>>>>> Stashed changes
             </StackPanel>
             <Grid x:ConnectionId='7' Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Visible" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
@@ -80,8 +74,6 @@
                     <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                     <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
-<<<<<<< Updated upstream
-=======
                 <Grid x:ConnectionId='10' Grid.Column="1" x:Name="PersonajesShop">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -138,7 +130,6 @@
                 <Grid x:ConnectionId='11' Grid.Column="1" x:Name="MapasShop"></Grid>
                 <Grid x:ConnectionId='12' Grid.Column="1" x:Name="CofresShop"></Grid>
                 <Grid x:ConnectionId='13' Grid.Column="1" x:Name="OtrosShop"></Grid>
->>>>>>> Stashed changes
             </Grid>
             <Grid x:ConnectionId='8' Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>

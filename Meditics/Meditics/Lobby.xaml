@@ -74,8 +74,6 @@
                     <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                     <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
-<<<<<<< Updated upstream
-=======
                 <Grid Grid.Column="1" x:Name="PersonajesShop">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -132,7 +130,6 @@
                 <Grid Grid.Column="1" x:Name="MapasShop"></Grid>
                 <Grid Grid.Column="1" x:Name="CofresShop"></Grid>
                 <Grid Grid.Column="1" x:Name="OtrosShop"></Grid>
->>>>>>> Stashed changes
             </Grid>
             <Grid Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
