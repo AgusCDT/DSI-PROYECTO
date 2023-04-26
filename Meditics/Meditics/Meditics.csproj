@@ -164,6 +164,7 @@
     <Content Include="Assets\gameMoqup.jpg" />
     <Content Include="Assets\graphics.png" />
     <Content Include="Assets\LoL_s6_theme.mp3" />
+    <Content Include="Assets\lvlCap.png" />
     <Content Include="Assets\map1.png" />
     <Content Include="Assets\map2.png" />
     <Content Include="Assets\map3.png" />
@@ -194,13 +195,17 @@
     <Content Include="Assets\playersCap.png" />
     <Content Include="Assets\profileMoqup.jpg" />
     <Content Include="Assets\refresh.png" />
+    <Content Include="Assets\rerollCap.png" />
     <Content Include="Assets\resolucion.png" />
     <Content Include="Assets\settings.png" />
+    <Content Include="Assets\synCap.png" />
     <Content Include="Assets\synGuard.png" />
     <Content Include="Assets\synHerr.png" />
     <Content Include="Assets\synMage.png" />
+    <Content Include="Assets\terrenoCap.png" />
     <Content Include="Assets\tftimage.jpg" />
     <Content Include="Assets\tftTrailer.mp4" />
+    <Content Include="Assets\tiendaCap.png" />
     <Content Include="Assets\timeCap.png" />
     <Content Include="Assets\topinfomatch.png" />
     <Content Include="Assets\usuario.png" />

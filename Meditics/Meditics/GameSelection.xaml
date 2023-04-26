@@ -48,13 +48,17 @@
                     Stretch="Fill" />
                 </Button>
             </StackPanel>
-
             <StackPanel>
+                <Popup x:Name="playMessage" IsOpen="False" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Border Background="White" BorderBrush="Black" BorderThickness="1">
+                        <TextBlock Text="NO PUEDES ENTRAR A ESTE TIPO DE PARTIDA" Margin="10"/>
+                    </Border>
+                </Popup>
                 <StackPanel Background="#3d051b" Width="300">
                     <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
                    TextAlignment="Center" TextWrapping="Wrap" Opacity="0.5"/>
                 </StackPanel>
-                <Button TabIndex="4">
+                <Button TabIndex="4" Click="BlockButton_Click">
                     <Image Source="/Assets/gameMoqup.jpg" Width="300"
                     Stretch="Fill" Height="300" Opacity="0.5"/>
                 </Button>

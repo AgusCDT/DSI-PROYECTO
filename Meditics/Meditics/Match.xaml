@@ -71,11 +71,12 @@
         </StackPanel>
 
         <Grid x:Name="EXP" Background="Gray" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
-            <Button x:Name="EXPB" Width="100" Height="100" Click="EXPB_Click" Background="Gray" TabIndex="2"/>
+            
             <TextBlock Text="NVL 1" Foreground="White" HorizontalAlignment="Center" FontSize="30"/>
             <TextBlock Text="EXP: 0/10" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="29,0,0,10"/>
             <TextBlock Text="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,42,10" Foreground="White" FontSize="15"/>
+            <Button x:Name="EXPB" Width="100" Height="100" Click="EXPB_Click" TabIndex="2"/>
         </Grid>
         <Grid Width="auto" HorizontalAlignment="Center" Margin="0,50" Height="auto">
             <Grid x:Name="Refresh" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="DarkCyan" Width="auto" Margin="-75,0,0,0">
@@ -118,7 +119,6 @@
                 </StackPanel>
             </StackPanel>
         </Grid>
-
         <ListView HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,240,0,0" TabIndex="-1">
             <ListViewItem TabIndex="-1">
                 <StackPanel Orientation="Horizontal">

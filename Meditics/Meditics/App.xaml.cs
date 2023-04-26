@@ -34,7 +34,7 @@ namespace Meditics
             this.InitializeComponent();           
             this.Suspending += OnSuspending;
             music.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/LoL_s6_theme.mp3"));
-            music.Volume = 30.0f / 100.0f;
+            music.Volume = 10.0f / 100.0f;
             music.Play();
             music.IsLoopingEnabled = true;
         }

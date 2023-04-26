@@ -39,8 +39,7 @@ namespace Meditics
             UserTextBlock.Text = UserTextBox.Text;
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            
+        {            
             UserTextBlock.Text=e.Parameter.ToString();
         }
 
@@ -57,8 +56,7 @@ namespace Meditics
                 UserTextBox.Visibility = Visibility.Collapsed;
                 UserTextBlock.Visibility = Visibility.Visible;
                 visibleT = false;
-            }
-            
+            }         
         }
 
         private void ChangeAvatarButton_Click(object sender, RoutedEventArgs e)
@@ -72,14 +70,13 @@ namespace Meditics
             {
                 AvatarScroller.Visibility = Visibility.Collapsed;
                 visibleA = false;
-            }
-            
+            }           
         }
 
         private void Avatares_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {          
-                var img = (Image)((ListViewItem)Avatares.SelectedItem).Content;              
-                Avatar.Source = img.Source;
+        {
+            var img = (Image)((ListViewItem)Avatares.SelectedItem).Content;
+            Avatar.Source = img.Source;
         }
     }
 }

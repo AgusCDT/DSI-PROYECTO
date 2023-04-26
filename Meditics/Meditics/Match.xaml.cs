@@ -75,11 +75,8 @@ namespace Meditics
             DispatcherTimer timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(2);
             timer.Tick += (s, args) =>
-            {
-                // Set the IsOpen property of the popup to false when the timer ticks
-                messagePopup.IsOpen = false;
-
-                // Stop the timer
+            {               
+                messagePopup.IsOpen = false;             
                 timer.Stop();
             };
             timer.Start();
@@ -88,16 +85,11 @@ namespace Meditics
         private void EXPB_Click(object sender, RoutedEventArgs e)
         {
             messagePopup.IsOpen = true;
-
-            // Create a dispatcher timer and start it with an interval of 3 seconds
             DispatcherTimer timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(2);
             timer.Tick += (s, args) =>
-            {
-                // Set the IsOpen property of the popup to false when the timer ticks
+            {              
                 messagePopup.IsOpen = false;
-
-                // Stop the timer
                 timer.Stop();
             };
             timer.Start();
@@ -122,7 +114,6 @@ namespace Meditics
             synopup.IsOpen = true;
             TextBlock myTextBlock = (TextBlock)synopup.FindName("synText");
             myTextBlock.Text = "Al tener 2 o más guardianes en tu terreno de juego se otorgará a todos tus personajes:\n+5% Resistencia física\n+5% Resistencia mágica\n+10% Salud máxima";
-
         }
 
         private void syn_PointerExited(object sender, PointerRoutedEventArgs e)

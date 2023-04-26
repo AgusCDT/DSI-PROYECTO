@@ -1,0 +1,154 @@
+﻿<Page
+    x:Class="Meditics.Match"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Meditics"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Page.Resources>
+
+
+    <Grid x:ConnectionId='2' x:Name="GameGrid">
+        <Popup x:ConnectionId='3' x:Name="messagePopup" IsOpen="False" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="White" BorderBrush="Black" BorderThickness="1">
+                <TextBlock Text="NOT ENOUGH MONEY" Margin="10"/>
+            </Border>
+        </Popup>
+        <Popup x:ConnectionId='4' x:Name="synopup" IsOpen="False" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Border Background="Black" BorderBrush="Black" BorderThickness="1">
+                <TextBlock x:ConnectionId='27' x:Name="synText" Margin="10" Foreground="White"/>
+            </Border>
+        </Popup>
+        <Image Source="/Assets/mapa.png" Stretch="Fill"/>
+        <Image Source="/Assets/topinfomatch.png" VerticalAlignment="Top" HorizontalAlignment="Center" Width="300"/>
+        <Canvas x:ConnectionId='5'  x:Name="Terreno" Margin="178,75,199,208" Background="Transparent"              
+                AllowDrop="True"                                                
+                XYFocusKeyboardNavigation="Enabled"/>
+        <StackPanel Width="300" HorizontalAlignment="Left">
+            <Button x:ConnectionId='25' Content="PLAYERS"                             Background="Gray" TabIndex="1"/>
+            <StackPanel x:ConnectionId='26' x:Name="MiStackPanel" Visibility="Collapsed" Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/assets/playerIcon.png" Width="20"/>
+                    <TextBlock Text="player1" Style="{StaticResource CustomTextBlockStyle}"/>
+                    <Image Source="/assets/vida.png" Width="20"/>
+                    <TextBlock Text="100" Style="{StaticResource CustomTextBlockStyle}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/assets/playerIcon.png" Width="20"/>
+                    <TextBlock Text="player2" Style="{StaticResource CustomTextBlockStyle}"/>
+                    <Image Source="/assets/vida.png" Width="20"/>
+                    <TextBlock Text="100" Style="{StaticResource CustomTextBlockStyle}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/assets/playerIcon.png" Width="20"/>
+                    <TextBlock Text="player3" Style="{StaticResource CustomTextBlockStyle}"/>
+                    <Image Source="/assets/vida.png" Width="20"/>
+                    <TextBlock Text="100" Style="{StaticResource CustomTextBlockStyle}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/assets/playerIcon.png" Width="20"/>
+                    <TextBlock Text="player4" Style="{StaticResource CustomTextBlockStyle}"/>
+                    <Image Source="/assets/vida.png" Width="20"/>
+                    <TextBlock Text="100" Style="{StaticResource CustomTextBlockStyle}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/assets/playerIcon.png" Width="20"/>
+                    <TextBlock Text="player5" Style="{StaticResource CustomTextBlockStyle}"/>
+                    <Image Source="/assets/vida.png" Width="20"/>
+                    <TextBlock Text="100" Style="{StaticResource CustomTextBlockStyle}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid x:ConnectionId='6' x:Name="EXP" Background="Gray" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,50">
+            
+            <TextBlock Text="NVL 1" Foreground="White" HorizontalAlignment="Center" FontSize="30"/>
+            <TextBlock Text="EXP: 0/10" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="29,0,0,10"/>
+            <TextBlock Text="3" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,42,10" Foreground="White" FontSize="15"/>
+            <Button x:ConnectionId='24' x:Name="EXPB" Width="100" Height="100"                    TabIndex="2"/>
+        </Grid>
+        <Grid Width="auto" HorizontalAlignment="Center" Margin="0,50" Height="auto">
+            <Grid x:ConnectionId='12' x:Name="Refresh" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="DarkCyan" Width="auto" Margin="-75,0,0,0">
+                <TextBlock Text="2" HorizontalAlignment="Left" Foreground="White" FontSize="15" VerticalAlignment="Bottom" Margin="43,0,0,10"/>
+                <Image Source="/Assets/coins.png" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="20" Margin="23,0,0,10"/>
+                <Image Source="/Assets/refresh.png" Width="45" HorizontalAlignment="Center" Margin="0,-11,0,11"/>
+                <Button x:ConnectionId='23' x:Name="RefreshB"                        Width="65" Height="65" Margin="5,5,5,5" TabIndex="3"/>
+            </Grid>
+            <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Width="auto">
+                <Grid x:ConnectionId='13' x:Name="Coins" Background="DarkCyan" Width="40" Height="24">
+                    <Image Source="/Assets/coins.png" Width="20" HorizontalAlignment="Left"/>
+                    <TextBlock Text="0" FontSize="20" Foreground="White" HorizontalAlignment="Right" Margin="0,-3,4,3"/>
+                </Grid>
+                <StackPanel x:ConnectionId='14' x:Name="Shop" Orientation="Horizontal" HorizontalAlignment="Center" Width="398" Background="DarkCyan" Height="75" TabFocusNavigation="Cycle">
+                    <StackPanel.Resources>
+                        <Style TargetType="Button">
+                            <Setter Property="Margin" Value="0,0,5,0"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <ContentControl x:ConnectionId='15' x:Name="MiContentControl1"                                        CanDrag="True" Margin="10,0" TabIndex="4" IsTapEnabled="True">
+                        <StackPanel x:ConnectionId='22' x:Name="P1">
+                            <Image Source="/assets/pj1.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:ConnectionId='16' x:Name="MiContentControl2"                                        CanDrag="True" Margin="10,0" TabIndex="5">
+                        <StackPanel x:ConnectionId='21' x:Name="P2" >
+                            <Image Source="/assets/pj2.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:ConnectionId='17' x:Name="MiContentControl3"                                        CanDrag="True" Margin="10,0" TabIndex="6">
+                        <StackPanel x:ConnectionId='20' x:Name="O3">
+                            <Image Source="/assets/pj3.png" Width="80" Height="80"/>
+                        </StackPanel>
+                    </ContentControl>
+                    <ContentControl x:ConnectionId='18' x:Name="MiContentControl4"                                        CanDrag="True" Margin="10,0" TabIndex="7">
+                        <StackPanel x:ConnectionId='19' x:Name="O4">
+                            <Image Source="/assets/pj4.png" Width="90" Height="90"/>
+                        </StackPanel>
+                    </ContentControl>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <ListView HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,240,0,0" TabIndex="-1">
+            <ListViewItem TabIndex="-1">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='11' Background="Transparent" x:Name="syn1"                    ClickMode="Hover"                                  >
+                        <Image Source="/assets/synMage.png" Width="20" Height="20"/>
+                    </Button>
+                    <TextBlock Text="Magos" Height="20"/>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem TabIndex="-1">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='10' Background="Transparent" x:Name="syn2"                    ClickMode="Hover"                                  >
+                        <Image Source="/assets/synHerr.png" Width="20" Height="20"/>
+                    </Button>
+                    <TextBlock Text="Herreros" Height="20"/>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem TabIndex="-1">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='9' Background="Transparent" x:Name="syn3"                    ClickMode="Hover"                                  >
+                        <Image Source="/assets/synGuard.png" Width="20" Height="20"/>
+                    </Button>
+                    <TextBlock Text="Guardianes" Height="20"/>
+                </StackPanel>
+            </ListViewItem>
+        </ListView>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Vertical">
+            <Button x:ConnectionId='7' Content="Victory"                        Background="White" TabIndex="8" ></Button>
+            <Button x:ConnectionId='8' Content="Defeat"                      Background="White" TabIndex="9"></Button>
+        </StackPanel>
+    </Grid>
+</Page>
+

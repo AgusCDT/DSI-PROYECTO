@@ -2,7 +2,6 @@
     x:Class="Meditics.EndGame"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:$wizardcodebehindxmlns$"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -17,34 +16,13 @@
             </StackPanel>
             <Grid x:ConnectionId='2' x:Name="VictoryGrid" Visibility="Collapsed">
                 <TextBlock Text="VICTORY" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White"/>
-                <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal" Margin="0,150,0,0">
-                        <Image/>
-                        <TextBlock/>
-                        <TextBlock/>
-                    </StackPanel>
-                    <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
-                        <Image/>
-                        <TextBlock/>
-                        <TextBlock/>
-                    </StackPanel>
-                </StackPanel>
             </Grid>
-            
             <Grid x:ConnectionId='3' x:Name="DefeatGrid" Visibility="Collapsed">
                 <TextBlock Text="DEFEAT" FontSize="64" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White"/>
-                <StackPanel Orientation="Vertical">
-                    <StackPanel Orientation="Horizontal" Margin="0,150,0,0">
-                        <Image/>
-                        <TextBlock/>
-                        <TextBlock/>
-                    </StackPanel>
-                </StackPanel>
             </Grid>
             <Button x:ConnectionId='4' Content="Back to lobby" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="White" Margin="0,20"
                                                       />
         </Grid>
-
     </Grid>
 </Page>
 

@@ -39,5 +39,18 @@ namespace Meditics
         {
             Frame.Navigate(typeof(Match));
         }
+
+        private void BlockButton_Click(object sender, RoutedEventArgs e)
+        {
+            playMessage.IsOpen = true;
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(2);
+            timer.Tick += (s, args) =>
+            {
+                playMessage.IsOpen = false;
+                timer.Stop();
+            };
+            timer.Start();
+        }
     }
 }
