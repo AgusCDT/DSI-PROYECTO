@@ -80,5 +80,28 @@ namespace Meditics
             INVENTARIOB.Background = new SolidColorBrush(color: Colors.Cyan);
             LOBBYB.Background = new SolidColorBrush(color: Colors.DarkCyan);
         }
+
+        private void Buy_Click(object sender, RoutedEventArgs e) 
+        {
+            Button button = sender as Button;
+            Grid childGrid = button.Parent as Grid;
+            Grid parentGrid = childGrid.Parent as Grid;
+
+            TextBlock costText = childGrid.Children.OfType<TextBlock>().Last<TextBlock>();
+            Image costImage = childGrid.Children.OfType<Image>().Last<Image>();
+
+            childGrid.Children.Remove(button); //primero le quitamos el boton
+            childGrid.Children.Remove(costText); //le quitamos el precio
+            childGrid.Children.Remove(costImage); //y por ultimo la imagen del dinero
+
+            parentGrid.Children.Remove(childGrid); //lo quitamos de la tienda
+
+            if (parentGrid.Name== "PersonajesShop")
+            {
+                PersonajesInv.Children.Add(childGrid);
+            }
+
+
+        }
     }
 }

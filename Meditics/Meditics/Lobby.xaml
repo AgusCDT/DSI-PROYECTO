@@ -15,6 +15,17 @@
             <Setter Property="FontSize" Value="22"/>
             <Setter Property="Foreground" Value="White"/>
         </Style>
+        <Style TargetType="Image" x:Key="Items">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="CostText">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Foreground" Value="Orange"/>
+            <Setter Property="Margin" Value="0,60,0,0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
     </Page.Resources>
 
     <Grid>
@@ -52,7 +63,7 @@
                 <Button x:Name="INVENTARIOB" Content="INVENTARIO" Background="DarkCyan" Width="120" 
                         FontFamily="Bahnschrift" Click="Inventario_Click" VerticalAlignment="Stretch" TabIndex="4"/>
             </StackPanel>
-            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
+            <Grid Grid.Row="1" x:Name="Tienda" Background="Cyan" Visibility="Visible" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="*"/>
@@ -63,6 +74,65 @@
                     <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                     <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
+<<<<<<< Updated upstream
+=======
+                <Grid Grid.Column="1" x:Name="PersonajesShop">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0" Grid.Row="0">
+                        <Image Source="/Assets/obj1.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Paco" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1750"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="0">
+                        <Image Source="/Assets/obj2.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Pingu" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1900"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="1">
+                        <Image Source="/Assets/obj3.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Topete" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="3000"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="1">
+                        <Image Source="/Assets/obj4.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Plumas" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1500"/>
+                    </Grid>
+                    <Grid Grid.Column="0" Grid.Row="2">
+                        <Image Source="/Assets/obj5.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Pedrolo" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="1000"/>
+                    </Grid>
+                    <Grid Grid.Column="1" Grid.Row="2">
+                        <Image Source="/Assets/obj6.png" Width="100"/>
+                        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Enfadado" Foreground="Orange" FontSize="20"/>
+                        <Button Width="100" Height="100" HorizontalAlignment="Center" Click="Buy_Click" Background="Black" Opacity=".5"/>
+                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <TextBlock Style="{StaticResource CostText}" Text="2000"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="1" x:Name="MapasShop"></Grid>
+                <Grid Grid.Column="1" x:Name="CofresShop"></Grid>
+                <Grid Grid.Column="1" x:Name="OtrosShop"></Grid>
+>>>>>>> Stashed changes
             </Grid>
             <Grid Grid.Row="1" x:Name="Inventario" Background="Cyan" Visibility="Collapsed" Margin="0,0,0,40">
                 <Grid.ColumnDefinitions>
@@ -75,7 +145,7 @@
                     <Button Content="Personajes" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                     <Button Content="Otros" HorizontalAlignment="Stretch" Margin="10" FontSize="30" Height="105"/>
                 </StackPanel>
-                <Grid Grid.Column="1">
+                <Grid Grid.Column="1" x:Name="PersonajesInv">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
@@ -85,24 +155,6 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <ContentControl Grid.Column="0" Grid.Row="0">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
-                    <ContentControl Grid.Column="1" Grid.Row="0">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
-                    <ContentControl Grid.Column="0" Grid.Row="1">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
-                    <ContentControl Grid.Column="1" Grid.Row="1">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
-                    <ContentControl Grid.Column="0" Grid.Row="2">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
-                    <ContentControl Grid.Column="1" Grid.Row="2">
-                        <Image Source="assets/usuario.png" MaxWidth="150"/>
-                    </ContentControl>
                 </Grid>
             </Grid>
         </Grid>

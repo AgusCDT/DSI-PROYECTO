@@ -156,6 +156,7 @@
     <Content Include="Assets\asterisco.png" />
     <Content Include="Assets\cerrar-sesion.png" />
     <Content Include="Assets\coins.png" />
+    <Content Include="Assets\dolars.png" />
     <Content Include="Assets\editar.png" />
     <Content Include="Assets\exitbutton.png" />
     <Content Include="Assets\gameMoqup.jpg" />
@@ -164,6 +165,12 @@
     <Content Include="Assets\mapa.PNG" />
     <Content Include="Assets\music.png" />
     <Content Include="Assets\nota-musical.png" />
+    <Content Include="Assets\obj1.png" />
+    <Content Include="Assets\obj2.png" />
+    <Content Include="Assets\obj3.png" />
+    <Content Include="Assets\obj4.png" />
+    <Content Include="Assets\obj5.png" />
+    <Content Include="Assets\obj6.png" />
     <Content Include="Assets\pantallacarga.jpeg" />
     <Content Include="Assets\pantallacarga2.jpeg" />
     <Content Include="Assets\pantallacarga3.jpg" />

@@ -42,7 +42,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="MaxWidth" />
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
@@ -80,6 +79,7 @@
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="ClickMode" />
       <RootProperty Name="HorizontalContentAlignment" />
@@ -120,6 +120,13 @@
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Meditics.GameSelection" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
@@ -136,6 +143,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
+<<<<<<< Updated upstream
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="Content" />
       <RootProperty Name="CanDrag" />
@@ -149,6 +157,8 @@
       <RootProperty Name="TabIndex" />
       <RootEvent Name="DragStarting" />
     </RootType>
+=======
+>>>>>>> Stashed changes
     <RootType FullName="Meditics.Lobby" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Style" />
@@ -266,8 +276,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
-      <RootProperty Name="Margin" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Meditics.Match" />
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">

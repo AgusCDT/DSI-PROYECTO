@@ -46,7 +46,14 @@
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\coins.png">
       <PackagePath>Assets\coins.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
+=======
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\dolars.png">
+      <PackagePath>Assets\dolars.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
+>>>>>>> Stashed changes
       <PackagePath>Assets\editar.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\exitbutton.png">
@@ -64,6 +71,7 @@
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\nota-musical.png">
       <PackagePath>Assets\nota-musical.png</PackagePath>
     </AppxPackagedFile>
+<<<<<<< Updated upstream
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj1.png">
       <PackagePath>Assets\pj1.png</PackagePath>
     </AppxPackagedFile>
@@ -77,6 +85,27 @@
       <PackagePath>Assets\pj4.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
+=======
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj1.png">
+      <PackagePath>Assets\obj1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj2.png">
+      <PackagePath>Assets\obj2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj3.png">
+      <PackagePath>Assets\obj3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj4.png">
+      <PackagePath>Assets\obj4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj5.png">
+      <PackagePath>Assets\obj5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj6.png">
+      <PackagePath>Assets\obj6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
+>>>>>>> Stashed changes
       <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.png">
