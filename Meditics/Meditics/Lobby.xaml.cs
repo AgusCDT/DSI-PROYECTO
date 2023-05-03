@@ -30,6 +30,7 @@ namespace Meditics
   
             VideoLobby.TransportControls.Height = 50;
             VideoLobby.TransportControls.VerticalAlignment= VerticalAlignment.Bottom;
+            VideoLobby.Pause();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -58,18 +59,19 @@ namespace Meditics
 
         private void Lobby_Click(object sender, RoutedEventArgs e)
         {
-            VideoLobby.Visibility= Visibility.Visible;    
-            ProfileGrid.Visibility= Visibility.Visible;
-            VideoLobby.Play();
-            Money.Visibility= Visibility.Collapsed;
+            PLAYB.Visibility = Visibility.Visible;
             Tienda.Visibility= Visibility.Collapsed;
             Inventario.Visibility= Visibility.Collapsed;
+            ProfileGrid.Visibility= Visibility.Visible;
+            Money.Visibility= Visibility.Collapsed;
+            VideoLobby.Visibility= Visibility.Visible;
             TIENDAB.Background = new SolidColorBrush(color: Colors.DarkCyan);
             INVENTARIOB.Background = new SolidColorBrush(color: Colors.DarkCyan);
             LOBBYB.Background = new SolidColorBrush(color: Colors.Cyan);
         }
         private void Tienda_Click(object sender, RoutedEventArgs e)
         {
+            PLAYB.Visibility= Visibility.Collapsed;
             VideoLobby.Visibility= Visibility.Collapsed;
             VideoLobby.Pause();
             ProfileGrid.Visibility= Visibility.Collapsed;
@@ -82,6 +84,7 @@ namespace Meditics
         }
         private void Inventario_Click(object sender, RoutedEventArgs e)
         {
+            PLAYB.Visibility= Visibility.Collapsed;
             VideoLobby.Visibility= Visibility.Collapsed;
             ProfileGrid.Visibility= Visibility.Collapsed;
             VideoLobby.Pause();

@@ -48,7 +48,7 @@
             <Image Source="/assets/settings.png" Stretch="Fill"/>
         </Button>
 
-        <Button Content="JUGAR" Click="SelectGameButton_Click" Margin="0,0,17,40" VerticalAlignment="Bottom" Width="100" Height="50"
+        <Button x:Name="PLAYB" Content="JUGAR" Click="SelectGameButton_Click" Margin="0,0,17,40" VerticalAlignment="Bottom" Width="100" Height="50"
                 Background="Orange" HorizontalAlignment="Right" FontFamily="Bahnschrift" Foreground="White"
                 FontSize="22" FontWeight="ExtraBold" TabIndex="6"/>
 

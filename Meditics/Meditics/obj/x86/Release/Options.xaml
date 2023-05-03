@@ -1,0 +1,69 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Meditics.Options"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Meditics"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Image Source="/Assets/pantallacarga2.jpeg" Stretch="Fill" />
+        <Rectangle Fill="#444444" Opacity="0.9"/>
+        <Button x:ConnectionId='2' x:Name="BackButton"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                                                                  
+                ToolTipService.ToolTip="Back" Margin="20,20,0,0" VerticalAlignment="Top" 
+                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
+                                         TabIndex="1"/>
+        <StackPanel>
+            <Canvas HorizontalAlignment="Center" Height="475" Width="900">
+                <TextBlock  Text="MÚSICA" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
+                        TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBlock  Text="SFX" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="99" TextAlignment="Center"
+                        TextWrapping="Wrap" Canvas.Left="157" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBlock  Text="GRÁFICOS" Style="{StaticResource CustomTextBlockStyle}" Height="31" Width="112" TextAlignment="Center"
+                        TextWrapping="Wrap" Canvas.Left="669" Canvas.Top="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock  Text="RESOLUCIÓN" Style="{StaticResource CustomTextBlockStyle}" Height="49" Width="147" TextAlignment="Center"
+                        TextWrapping="Wrap" Canvas.Left="650" Canvas.Top="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                <Slider x:ConnectionId='4' x:Name="MusicSlider" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="100" TabIndex="2"
+                                                       Margin="70" Canvas.Left="80"/>
+                <Image Source="/Assets/music.png" Height=" 30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top"
+                   Canvas.Left="100" Canvas.Top="70"/>
+                <Slider HorizontalAlignment="Left" Width="100" TabIndex="3" 
+                    Margin="70" Canvas.Top="200"  Canvas.Left="80"/>
+                <Image Source="/Assets/volumen.png" Height=" 30" Width="30" HorizontalAlignment="Left"
+                   VerticalAlignment="Center" Canvas.Left="100" Canvas.Top="270"/>
+                <ComboBox Width="120" Background="White" TabIndex="4" Canvas.Left="670" Canvas.Top="100"/>
+                <Image Source="/Assets/graphics.png" Width="40" Canvas.Left="600" Canvas.Top="95"/>
+                <ComboBox Width="120" Background="White" TabIndex="5" Canvas.Left="670" Canvas.Top="270"/>
+                <Image Source="/Assets/resolucion.png" Width="40" Canvas.Left="600" Canvas.Top="265"/>
+
+            </Canvas>
+        </StackPanel>
+
+        <Button x:ConnectionId='3'  HorizontalAlignment="Center" Margin="0,622,0,0" VerticalAlignment="Top"
+                 FontFamily="Cascadia Code" Height="52" Width="52"
+                 HorizontalContentAlignment="Left" FontSize="20" CornerRadius="10" 
+                                            TabIndex="6">
+            <Image Source="/Assets/cerrar-sesion.png" Width="50" Height="50" RenderTransformOrigin="0.5,0.5" 
+                   UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-9,-6,-11,-8">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="-90"/>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
+    </Grid>
+</Page>
+

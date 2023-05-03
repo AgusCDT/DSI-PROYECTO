@@ -1,0 +1,69 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Meditics.GameSelection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Meditics"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="TextBlock" x:Key="CustomTextBlockStyle">
+            <Setter Property="FontFamily" Value="Bahnschrift"/>
+            <Setter Property="FontStyle" Value="Normal"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Image Source="/Assets/pantallacarga3.jpg" Stretch="Fill"/>
+        <Button x:ConnectionId='2' x:Name="BackButton"
+                Style="{StaticResource NavigationBackButtonNormalStyle}"
+                                                                 
+                ToolTipService.ToolTip="Back" Margin="20" VerticalAlignment="Top" 
+                Foreground="#FFFFA834" FontSize="36" FontStyle="Normal" HorizontalAlignment="Left"
+                                         TabIndex="1"/>
+        <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <StackPanel>
+                <StackPanel Background="#7b4812" Width="300">
+                    <TextBlock Text="TUTORIAL" Style="{StaticResource CustomTextBlockStyle}" Height="15" Width="74" 
+                           TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+                <Button x:ConnectionId='6'                             
+                        TabIndex="2" IsFocusEngagementEnabled="True">
+                    <Image Source="/Assets/tftimage.jpg" Width="300"  
+                    Stretch="Fill"/>
+                </Button>
+            </StackPanel>
+            <StackPanel>
+                <StackPanel Background="#4c7a34" Width="300">
+                    <TextBlock Text="JUGAR VS IA" Style="{StaticResource CustomTextBlockStyle}" Height="15" 
+                   TextAlignment="Center" TextWrapping="Wrap"/>
+                </StackPanel>
+                <Button x:ConnectionId='5'                          
+                TabIndex="3">
+                    <Image Source="/Assets/playerIA.jpg" Width="300"
+                    Stretch="Fill" />
+                </Button>
+            </StackPanel>
+            <StackPanel>
+                <Popup x:ConnectionId='3' x:Name="playMessage" IsOpen="False" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Border Background="White" BorderBrush="Black" BorderThickness="1">
+                        <TextBlock Text="NO PUEDES ENTRAR A ESTE TIPO DE PARTIDA" Margin="10"/>
+                    </Border>
+                </Popup>
+                <StackPanel Background="#3d051b" Width="300">
+                    <TextBlock Text="JUGAR VS PLAYER" Style="{StaticResource CustomTextBlockStyle}" 
+                   TextAlignment="Center" TextWrapping="Wrap" Opacity="0.5"/>
+                </StackPanel>
+                <Button x:ConnectionId='4' TabIndex="4"                          >
+                    <Image Source="/Assets/gameMoqup.jpg" Width="300"
+                    Stretch="Fill" Height="300" Opacity="0.5"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+

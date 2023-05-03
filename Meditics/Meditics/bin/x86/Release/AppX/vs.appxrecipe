@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUS-ROG-CAO</Machine>
+    <WindowsUser>pabca</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>707e3c13-5af9-4da3-a2e5-4217f02c8e4c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Agustin Castro</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>13D21F7B9DD1A9E146F609CD118A1FE5B853B4120F6BD0A0FA8C0C561E0FC025</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>707e3c13-5af9-4da3-a2e5-4217f02c8e4c_1.0.0.0_x86__ayqb9s56nj3f0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>707e3c13-5af9-4da3-a2e5-4217f02c8e4c_ayqb9s56nj3f0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>707e3c13-5af9-4da3-a2e5-4217f02c8e4c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Agustin Castro</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-05-03T23:02:30.714</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\alto-volumen.png">
+      <PackagePath>Assets\alto-volumen.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.906</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\asterisco.png">
+      <PackagePath>Assets\asterisco.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\cerrar-sesion.png">
+      <PackagePath>Assets\cerrar-sesion.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.915</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\chest1.png">
+      <PackagePath>Assets\chest1.png</PackagePath>
+      <Modified>2023-04-26T18:41:22.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\chest2.png">
+      <PackagePath>Assets\chest2.png</PackagePath>
+      <Modified>2023-04-26T18:45:22.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\coins.png">
+      <PackagePath>Assets\coins.png</PackagePath>
+      <Modified>2023-04-25T20:28:52.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\dolars.png">
+      <PackagePath>Assets\dolars.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\editar.png">
+      <PackagePath>Assets\editar.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\exitbutton.png">
+      <PackagePath>Assets\exitbutton.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\gameMoqup.jpg">
+      <PackagePath>Assets\gameMoqup.jpg</PackagePath>
+      <Modified>2023-04-09T22:49:13.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\graphics.png">
+      <PackagePath>Assets\graphics.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2023-04-02T20:39:10.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\LoL_s6_theme.mp3">
+      <PackagePath>Assets\LoL_s6_theme.mp3</PackagePath>
+      <Modified>2023-04-20T15:50:23.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\lvlCap.png">
+      <PackagePath>Assets\lvlCap.png</PackagePath>
+      <Modified>2023-04-26T20:43:36.466</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\map1.png">
+      <PackagePath>Assets\map1.png</PackagePath>
+      <Modified>2023-04-26T18:05:03.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\map2.png">
+      <PackagePath>Assets\map2.png</PackagePath>
+      <Modified>2023-04-26T18:05:23.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\map3.png">
+      <PackagePath>Assets\map3.png</PackagePath>
+      <Modified>2023-04-26T18:05:41.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\map4.png">
+      <PackagePath>Assets\map4.png</PackagePath>
+      <Modified>2023-04-26T18:07:26.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\mapa.PNG">
+      <PackagePath>Assets\mapa.PNG</PackagePath>
+      <Modified>2023-04-06T17:59:20.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\matchCap.png">
+      <PackagePath>Assets\matchCap.png</PackagePath>
+      <Modified>2023-04-26T20:52:18.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\music.png">
+      <PackagePath>Assets\music.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\nota-musical.png">
+      <PackagePath>Assets\nota-musical.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj1.png">
+      <PackagePath>Assets\obj1.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj2.png">
+      <PackagePath>Assets\obj2.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj3.png">
+      <PackagePath>Assets\obj3.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj4.png">
+      <PackagePath>Assets\obj4.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj5.png">
+      <PackagePath>Assets\obj5.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\obj6.png">
+      <PackagePath>Assets\obj6.png</PackagePath>
+      <Modified>2023-04-26T01:07:52.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pantallacarga.jpeg">
+      <PackagePath>Assets\pantallacarga.jpeg</PackagePath>
+      <Modified>2023-04-06T17:59:20.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pantallacarga2.jpeg">
+      <PackagePath>Assets\pantallacarga2.jpeg</PackagePath>
+      <Modified>2023-04-06T17:59:20.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pantallacarga3.jpg">
+      <PackagePath>Assets\pantallacarga3.jpg</PackagePath>
+      <Modified>2023-04-06T17:59:20.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pj1.png">
+      <PackagePath>Assets\pj1.png</PackagePath>
+      <Modified>2023-04-26T01:07:47.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pj2.png">
+      <PackagePath>Assets\pj2.png</PackagePath>
+      <Modified>2023-04-26T01:07:47.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pj3.png">
+      <PackagePath>Assets\pj3.png</PackagePath>
+      <Modified>2023-04-26T01:07:47.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\pj4.png">
+      <PackagePath>Assets\pj4.png</PackagePath>
+      <Modified>2023-04-26T01:07:47.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\play.png">
+      <PackagePath>Assets\play.png</PackagePath>
+      <Modified>2023-04-11T22:03:47.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playerIA.jpg">
+      <PackagePath>Assets\playerIA.jpg</PackagePath>
+      <Modified>2023-04-09T22:49:13.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playerIcon.jpg">
+      <PackagePath>Assets\playerIcon.jpg</PackagePath>
+      <Modified>2023-04-09T22:49:13.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playerIcon.png">
+      <PackagePath>Assets\playerIcon.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.978</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playerIcon2.png">
+      <PackagePath>Assets\playerIcon2.png</PackagePath>
+      <Modified>2023-04-25T20:08:23.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playerIcon3.png">
+      <PackagePath>Assets\playerIcon3.png</PackagePath>
+      <Modified>2023-04-25T20:08:23.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\playersCap.png">
+      <PackagePath>Assets\playersCap.png</PackagePath>
+      <Modified>2023-04-26T20:33:18.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\profileMoqup.jpg">
+      <PackagePath>Assets\profileMoqup.jpg</PackagePath>
+      <Modified>2023-04-09T22:49:13.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\refresh.png">
+      <PackagePath>Assets\refresh.png</PackagePath>
+      <Modified>2023-04-25T21:00:36.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\rerollCap.png">
+      <PackagePath>Assets\rerollCap.png</PackagePath>
+      <Modified>2023-04-26T20:43:05.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\resolucion.png">
+      <PackagePath>Assets\resolucion.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\settings.png">
+      <PackagePath>Assets\settings.png</PackagePath>
+      <Modified>2023-04-20T15:50:23.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\synCap.png">
+      <PackagePath>Assets\synCap.png</PackagePath>
+      <Modified>2023-04-26T20:43:55.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\synGuard.png">
+      <PackagePath>Assets\synGuard.png</PackagePath>
+      <Modified>2023-04-25T21:09:50.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\synHerr.png">
+      <PackagePath>Assets\synHerr.png</PackagePath>
+      <Modified>2023-04-25T21:10:59.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\synMage.png">
+      <PackagePath>Assets\synMage.png</PackagePath>
+      <Modified>2023-04-25T21:12:12.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\terrenoCap.png">
+      <PackagePath>Assets\terrenoCap.png</PackagePath>
+      <Modified>2023-04-26T20:42:17.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\tftimage.jpg">
+      <PackagePath>Assets\tftimage.jpg</PackagePath>
+      <Modified>2023-04-06T17:59:20.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\tftTrailer.mp4">
+      <PackagePath>Assets\tftTrailer.mp4</PackagePath>
+      <Modified>2023-04-20T15:50:23.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\tiendaCap.png">
+      <PackagePath>Assets\tiendaCap.png</PackagePath>
+      <Modified>2023-04-26T20:42:42.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\timeCap.png">
+      <PackagePath>Assets\timeCap.png</PackagePath>
+      <Modified>2023-04-26T20:41:17.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\topinfomatch.png">
+      <PackagePath>Assets\topinfomatch.png</PackagePath>
+      <Modified>2023-04-25T21:04:05.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\usuario.png">
+      <PackagePath>Assets\usuario.png</PackagePath>
+      <Modified>2023-04-09T22:49:13.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\vida.png">
+      <PackagePath>Assets\vida.png</PackagePath>
+      <Modified>2023-04-11T21:21:58.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\volumen.png">
+      <PackagePath>Assets\volumen.png</PackagePath>
+      <Modified>2023-04-09T22:49:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-04-02T20:39:10.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2022-06-10T21:24:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Meditics.dll">
+      <PackagePath>Meditics.dll</PackagePath>
+      <Modified>2023-05-03T23:02:30.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Meditics.exe">
+      <PackagePath>Meditics.exe</PackagePath>
+      <Modified>2023-05-03T23:02:30.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\Meditics.pdb">
+      <PackagePath>Meditics.pdb</PackagePath>
+      <Modified>2023-05-03T23:02:30.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-05-03T23:02:21.757</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.29512.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.29512.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.28604.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.28604.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.12-rel-31116-00\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

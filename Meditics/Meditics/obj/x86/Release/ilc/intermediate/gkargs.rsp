@@ -1,0 +1,7 @@
+﻿"C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Release\ilc\in\Meditics.exe"
+/Lib:"C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"0ef093b4-da22-4f93-b9cb-46b5b4cc7bc7\",\"Id\":\"d812e7de-da15-47cb-81fa-7088bc77b128\",\"ProcessStartTime\":638187505336881215,\"SkuName\":\"VS_Community\",\"VSExeVersion\":\"17.4.33213.308\",\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[{\"AdditionalProperties\":[{\"Key\":\"DumpType\",\"Value\":\"Heap\"}],\"Id\":\"e9940337-2ead-49ca-8069-098d308bf8c0\",\"WatsonEventType\":\"VisualStudioNonFatalErrors2\",\"BucketParameterFilters\":[null,null,\"vs.fault.faulttest\",null,null,null,null,null,null,null]}]}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\LibraryXML"
+/RunOnlyPreDR
