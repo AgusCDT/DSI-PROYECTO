@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>PAVILION-NEMESI</Machine>
-    <WindowsUser>Agustin Castro</WindowsUser>
+    <Machine>ASUS-ROG-CAO</Machine>
+    <WindowsUser>pabca</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>707e3c13-5af9-4da3-a2e5-4217f02c8e4c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Agustin Castro</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.exe">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.exe">
       <PackagePath>entrypoint\Meditics.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,250 +34,250 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\alto-volumen.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\alto-volumen.png">
       <PackagePath>Assets\alto-volumen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\asterisco.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\asterisco.png">
       <PackagePath>Assets\asterisco.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\cerrar-sesion.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\cerrar-sesion.png">
       <PackagePath>Assets\cerrar-sesion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\chest1.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\chest1.png">
       <PackagePath>Assets\chest1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\chest2.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\chest2.png">
       <PackagePath>Assets\chest2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\coins.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\coins.png">
       <PackagePath>Assets\coins.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\dolars.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\dolars.png">
       <PackagePath>Assets\dolars.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\editar.png">
       <PackagePath>Assets\editar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\exitbutton.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\exitbutton.png">
       <PackagePath>Assets\exitbutton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\graphics.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\graphics.png">
       <PackagePath>Assets\graphics.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\lvlCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\lvlCap.png">
       <PackagePath>Assets\lvlCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\map1.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\map1.png">
       <PackagePath>Assets\map1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\map2.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\map2.png">
       <PackagePath>Assets\map2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\map3.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\map3.png">
       <PackagePath>Assets\map3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\map4.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\map4.png">
       <PackagePath>Assets\map4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\mapa.PNG">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\mapa.PNG">
       <PackagePath>Assets\mapa.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\matchCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\matchCap.png">
       <PackagePath>Assets\matchCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\music.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\music.png">
       <PackagePath>Assets\music.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\nota-musical.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\nota-musical.png">
       <PackagePath>Assets\nota-musical.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj1.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj1.png">
       <PackagePath>Assets\obj1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj2.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj2.png">
       <PackagePath>Assets\obj2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj3.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj3.png">
       <PackagePath>Assets\obj3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj4.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj4.png">
       <PackagePath>Assets\obj4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj5.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj5.png">
       <PackagePath>Assets\obj5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\obj6.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\obj6.png">
       <PackagePath>Assets\obj6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj1.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pj1.png">
       <PackagePath>Assets\pj1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj2.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pj2.png">
       <PackagePath>Assets\pj2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj3.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pj3.png">
       <PackagePath>Assets\pj3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pj4.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pj4.png">
       <PackagePath>Assets\pj4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.png">
       <PackagePath>Assets\playerIcon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon2.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon2.png">
       <PackagePath>Assets\playerIcon2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon3.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon3.png">
       <PackagePath>Assets\playerIcon3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playersCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playersCap.png">
       <PackagePath>Assets\playersCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\refresh.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\refresh.png">
       <PackagePath>Assets\refresh.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\rerollCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\rerollCap.png">
       <PackagePath>Assets\rerollCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\resolucion.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\settings.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\settings.png">
       <PackagePath>Assets\settings.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\synCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\synCap.png">
       <PackagePath>Assets\synCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\synGuard.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\synGuard.png">
       <PackagePath>Assets\synGuard.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\synHerr.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\synHerr.png">
       <PackagePath>Assets\synHerr.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\synMage.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\synMage.png">
       <PackagePath>Assets\synMage.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\terrenoCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\terrenoCap.png">
       <PackagePath>Assets\terrenoCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\tiendaCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\tiendaCap.png">
       <PackagePath>Assets\tiendaCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\timeCap.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\timeCap.png">
       <PackagePath>Assets\timeCap.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\topinfomatch.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\topinfomatch.png">
       <PackagePath>Assets\topinfomatch.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\usuario.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\usuario.png">
       <PackagePath>Assets\usuario.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\vida.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\vida.png">
       <PackagePath>Assets\vida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\volumen.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\volumen.png">
       <PackagePath>Assets\volumen.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\gameMoqup.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\gameMoqup.jpg">
       <PackagePath>Assets\gameMoqup.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga3.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga3.jpg">
       <PackagePath>Assets\pantallacarga3.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIA.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIA.jpg">
       <PackagePath>Assets\playerIA.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\playerIcon.jpg">
       <PackagePath>Assets\playerIcon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\profileMoqup.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\profileMoqup.jpg">
       <PackagePath>Assets\profileMoqup.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\tftimage.jpg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\tftimage.jpg">
       <PackagePath>Assets\tftimage.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\LoL_s6_theme.mp3">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\LoL_s6_theme.mp3">
       <PackagePath>Assets\LoL_s6_theme.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga.jpeg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga.jpeg">
       <PackagePath>Assets\pantallacarga.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga2.jpeg">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\pantallacarga2.jpeg">
       <PackagePath>Assets\pantallacarga2.jpeg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Assets\tftTrailer.mp4">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Assets\tftTrailer.mp4">
       <PackagePath>Assets\tftTrailer.mp4</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Meditics.xr.xml">
       <PackagePath>Meditics.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\EndGame.xbf">
       <PackagePath>EndGame.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\GameSelection.xbf">
       <PackagePath>GameSelection.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Lobby.xbf">
       <PackagePath>Lobby.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Match.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Match.xbf">
       <PackagePath>Match.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Options.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Options.xbf">
       <PackagePath>Options.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Profile.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Profile.xbf">
       <PackagePath>Profile.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Tutorial.xbf">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Tutorial.xbf">
       <PackagePath>Tutorial.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\Meditics.exe">
+    <AppxPackagedFile Include="C:\Users\pabca\OneDrive\Documentos\GitHub\DSI-PROYECTO\Meditics\Meditics\bin\x86\Debug\Core\Meditics.exe">
       <PackagePath>Meditics.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

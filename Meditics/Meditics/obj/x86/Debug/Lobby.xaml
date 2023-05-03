@@ -93,8 +93,10 @@
                     <Grid Grid.Column="0" Grid.Row="0">
                         <Image Source="/Assets/obj1.png" Width="100"/>
                         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,10" Text="Paco" Foreground="Orange" FontSize="20"/>
-                        <Button x:ConnectionId='32' Width="100" Height="100" HorizontalAlignment="Center"                   Background="Black" Opacity=".5"/>
-                        <Image Source="/Assets/dolars.png" Width="50"/>
+                        <Button x:ConnectionId='32' Width="100" Height="100" HorizontalAlignment="Center"                   Background="Black" Opacity=".5">
+                            <Image Source="/Assets/dolars.png" Width="50"/>
+
+                        </Button>
                         <TextBlock Style="{StaticResource CostText}" Text="1750"/>
                     </Grid>
                     <Grid Grid.Column="1" Grid.Row="0">
